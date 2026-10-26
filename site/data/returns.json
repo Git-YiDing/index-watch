@@ -1,0 +1,2716 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "last_attempt_at": "2026-10-26T21:30:28+08:00",
+    "return_type": "cumulative",
+    "currency": "CNY",
+    "method_note": "区间累计收益率（非年化），现金分红按除息日净值再投资；未计个人申购赎回费用。年份相对各份额最新净值日回溯，起点取当日或之前最近一次净值。全部为最早可得净值日起算，未必等于基金法律成立日。",
+    "success_count": 53,
+    "total_count": 53
+  },
+  "funds": {
+    "017641": {
+      "code": "017641",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/017641.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/017641.js",
+      "source_sha256": "753870c5fb60bc8b954612cd63b99dd3dd6fab034470a030b4537cd17c789344",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-22",
+      "history_start": "2023-04-06",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.73,
+      "periods": {
+        "1y": {
+          "value": 8.73399,
+          "start_date": "2025-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "2y": {
+          "value": 23.17002,
+          "start_date": "2024-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "3y": {
+          "value": 61.990603,
+          "start_date": "2023-10-20",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 68.94,
+          "start_date": "2023-04-06",
+          "end_date": "2026-10-22",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019305": {
+      "code": "019305",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019305.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019305.js",
+      "source_sha256": "b5b886b9f50de0045c19a256d4e574c12114900795505e1ee859743f1cb03fdb",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-09-01",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.39,
+      "periods": {
+        "1y": {
+          "value": 7.394025,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 22.877602,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 59.894332,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 49.981979,
+          "start_date": "2023-09-01",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "050025": {
+      "code": "050025",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/050025.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/050025.js",
+      "source_sha256": "70f4981f3d2640256b65d9f23e75f3c2ddf22b95f5df71b4476d875584c00af5",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2012-06-14",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.47,
+      "periods": {
+        "1y": {
+          "value": 7.466235,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 23.537055,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 63.835161,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 84.052069,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 68.697036,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 478.91973,
+          "start_date": "2012-06-14",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "006075": {
+      "code": "006075",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/006075.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/006075.js",
+      "source_sha256": "0b37f0d4c9c4b432af42330849c4a85db8076b3e1d1d6112ecdcf4619ecf1d0c",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2018-06-08",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.09,
+      "periods": {
+        "1y": {
+          "value": 7.089964,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 22.673042,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 62.12669,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 81.491685,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 65.66497,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 164.518687,
+          "start_date": "2018-06-08",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "018738": {
+      "code": "018738",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/018738.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/018738.js",
+      "source_sha256": "a43c592799b6c24a1e0e173c7395736a33012efdfff1a270d4019f8cd4186c1e",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-07-06",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.46,
+      "periods": {
+        "1y": {
+          "value": 7.456286,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 23.510564,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 63.786546,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 56.287035,
+          "start_date": "2023-07-06",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "017028": {
+      "code": "017028",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/017028.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/017028.js",
+      "source_sha256": "7ebc7cb6b5e1ab79c5c07930a471f3ef21a4f7018228baf4712258a452134331",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-11-02",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.97,
+      "periods": {
+        "1y": {
+          "value": 8.969759,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 22.748268,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 59.280764,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 70.08,
+          "start_date": "2022-11-02",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "017030": {
+      "code": "017030",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/017030.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/017030.js",
+      "source_sha256": "5db8cb13bfad521abdc052e35864034ebd4281bd93f10f71a3e568c60a48ff8c",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-11-02",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.64,
+      "periods": {
+        "1y": {
+          "value": 8.641417,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 22.007694,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 57.860631,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 68.09,
+          "start_date": "2022-11-02",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "018064": {
+      "code": "018064",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/018064.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/018064.js",
+      "source_sha256": "2ec88c6ba9402ad0fea6baf4b04e881cbc40a0cceaf1713170e07d2f8b37234d",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-05-10",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 6.51,
+      "periods": {
+        "1y": {
+          "value": 6.509625,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 21.584502,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 57.949103,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 68.2,
+          "start_date": "2023-05-10",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "018065": {
+      "code": "018065",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/018065.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/018065.js",
+      "source_sha256": "e49b98153113feb986e54664147dd0ee45cd7bc03673898981fe29b8b8911db2",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-05-10",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 6.19,
+      "periods": {
+        "1y": {
+          "value": 6.194182,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 20.858139,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 56.530324,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 66.47,
+          "start_date": "2023-05-10",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "161125": {
+      "code": "161125",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/161125.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/161125.js",
+      "source_sha256": "18393877d1d29254ca3f543581aa84d98bc3713097dcbd268d21b8fd66356bc3",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2016-12-02",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.13,
+      "periods": {
+        "1y": {
+          "value": 7.132505,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 22.275609,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 63.819122,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 84.748587,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 71.843693,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 210.47,
+          "start_date": "2016-12-02",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "012860": {
+      "code": "012860",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/012860.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/012860.js",
+      "source_sha256": "1444db4a53ef06c81ff872a7bd2673b681a613b91549ef72e9b90a82e89d09fe",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2021-07-19",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 6.76,
+      "periods": {
+        "1y": {
+          "value": 6.75723,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 21.496593,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 62.208746,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 82.248521,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 68.790479,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 78.1491,
+          "start_date": "2021-07-19",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "007721": {
+      "code": "007721",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/007721.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/007721.js",
+      "source_sha256": "a9e3247a874ff3c17b255aba658d221017cd0519fe5ba6538e1cbcea49b09650",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2019-09-24",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 6.8,
+      "periods": {
+        "1y": {
+          "value": 6.799098,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 21.941599,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 57.936564,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 78.064,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 65.388616,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 122.58,
+          "start_date": "2019-09-24",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "007722": {
+      "code": "007722",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/007722.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/007722.js",
+      "source_sha256": "8b10362784f41d7fc5a190098a0523b566be65f880170469adb70197bf5d72eb",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2019-09-24",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 6.53,
+      "periods": {
+        "1y": {
+          "value": 6.532026,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 21.355932,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 56.679581,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 76.155521,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 63.177165,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 118.38,
+          "start_date": "2019-09-24",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "022523": {
+      "code": "022523",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/022523.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/022523.js",
+      "source_sha256": "e91e87fa8b48980b9d72b256b6dccdde26cc2a749eee56a0f695ca82c69bea96",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2024-11-01",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 6.52,
+      "periods": {
+        "1y": {
+          "value": 6.523861,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 22.929219,
+          "start_date": "2024-11-01",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019172": {
+      "code": "019172",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019172.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019172.js",
+      "source_sha256": "3d4d820cb61b9cac809cadd37a76771b7e8858002295093a7c852a479ff4ef86",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-09-25",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.08,
+      "periods": {
+        "1y": {
+          "value": 9.078712,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 34.074132,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 74.214286,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 70.73,
+          "start_date": "2023-09-25",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019173": {
+      "code": "019173",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019173.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019173.js",
+      "source_sha256": "a1f6e79ef81a7efc9d90842a35fac16cd3bf6b5addde7a30318e4c9a968963fd",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-09-25",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.75,
+      "periods": {
+        "1y": {
+          "value": 8.753537,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 33.278159,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 72.593651,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 69.09,
+          "start_date": "2023-09-25",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "016452": {
+      "code": "016452",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/016452.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/016452.js",
+      "source_sha256": "7b4428e4e6aaebadd772ced1c5231ec73231d6f97f38aa05811c1b86120b3c41",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-22",
+      "history_start": "2022-11-29",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.33,
+      "periods": {
+        "1y": {
+          "value": 9.326272,
+          "start_date": "2025-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.30976,
+          "start_date": "2024-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "3y": {
+          "value": 72.971296,
+          "start_date": "2023-10-20",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 122.96,
+          "start_date": "2022-11-29",
+          "end_date": "2026-10-22",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "016453": {
+      "code": "016453",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/016453.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/016453.js",
+      "source_sha256": "ebd0d4109e72b321a31562330b97c00c9d4ccf1a44fc6aa58b125da2fe308a2c",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-22",
+      "history_start": "2022-11-29",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.22,
+      "periods": {
+        "1y": {
+          "value": 9.222441,
+          "start_date": "2025-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.03281,
+          "start_date": "2024-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "3y": {
+          "value": 72.246799,
+          "start_date": "2023-10-20",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 121.94,
+          "start_date": "2022-11-29",
+          "end_date": "2026-10-22",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "021000": {
+      "code": "021000",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/021000.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/021000.js",
+      "source_sha256": "ab3853f808d53b6798a8e0f83554d453e8edb71a59d1a48d287272dd837eaf06",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2024-03-20",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.43,
+      "periods": {
+        "1y": {
+          "value": 8.425354,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 32.114279,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 43.356059,
+          "start_date": "2024-03-20",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019736": {
+      "code": "019736",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019736.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019736.js",
+      "source_sha256": "745853135d26884c4918b57faab0f3e61d2ed4f4427fcd458096ec30f1d2ecf7",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-22",
+      "history_start": "2024-03-22",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.08,
+      "periods": {
+        "1y": {
+          "value": 9.082714,
+          "start_date": "2025-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "2y": {
+          "value": 31.343284,
+          "start_date": "2024-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 45.2,
+          "start_date": "2024-03-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019737": {
+      "code": "019737",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019737.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019737.js",
+      "source_sha256": "1f91f61a258816f8370f0b0e5a32835e69f942646993037494dbc44dcfb30dfd",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-22",
+      "history_start": "2024-03-22",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.81,
+      "periods": {
+        "1y": {
+          "value": 8.809542,
+          "start_date": "2025-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.668117,
+          "start_date": "2024-10-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-22",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 44.14,
+          "start_date": "2024-03-22",
+          "end_date": "2026-10-22",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019441": {
+      "code": "019441",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019441.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019441.js",
+      "source_sha256": "fe891f59e37ec03f294d0c1bfe1af2575c8dee9998a0071839b73380d0221fcb",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-09-27",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.21,
+      "periods": {
+        "1y": {
+          "value": 9.214632,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 33.012613,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 68.262248,
+          "start_date": "2023-10-20",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 64.51,
+          "start_date": "2023-09-27",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019442": {
+      "code": "019442",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019442.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019442.js",
+      "source_sha256": "4bde6958b66dd3c8d0b19af017c2f5986190dcc1329f70b4fbb6933ed36db6f5",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-09-27",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.01,
+      "periods": {
+        "1y": {
+          "value": 9.006004,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 32.436375,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 67.144026,
+          "start_date": "2023-10-20",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 63.4,
+          "start_date": "2023-09-27",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019524": {
+      "code": "019524",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019524.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019524.js",
+      "source_sha256": "8bde55dd32b3ccd852d69c64ee1a092ef91028449a63a16536229fb2fcf924e8",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-10-19",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.06,
+      "periods": {
+        "1y": {
+          "value": 8.058657,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 28.800513,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 60.672134,
+          "start_date": "2023-10-20",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 60.64,
+          "start_date": "2023-10-19",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019525": {
+      "code": "019525",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019525.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019525.js",
+      "source_sha256": "c820c783b88adb70f136cf9ee85c41d9ddcc65e35f482ca032c8ea1fbb9cbbab",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-10-19",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.8,
+      "periods": {
+        "1y": {
+          "value": 7.798538,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 28.150652,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 59.271854,
+          "start_date": "2023-10-20",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 59.24,
+          "start_date": "2023-10-19",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "022664": {
+      "code": "022664",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/022664.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/022664.js",
+      "source_sha256": "30603cd38d48de62e641346319e3090e596bfaa943dfbf4318022353149f09e9",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2024-11-26",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.96,
+      "periods": {
+        "1y": {
+          "value": 7.962041,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 22.797214,
+          "start_date": "2024-11-26",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "000834": {
+      "code": "000834",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/000834.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/000834.js",
+      "source_sha256": "be21c743acf880539cf28cb4cc959bc06c5a6a469035652f5ba40880e4725b90",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2014-11-13",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.35,
+      "periods": {
+        "1y": {
+          "value": 7.352243,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 29.393811,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 71.43499,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 122.235166,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 80.882963,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 510.48,
+          "start_date": "2014-11-13",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "008971": {
+      "code": "008971",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/008971.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/008971.js",
+      "source_sha256": "90d21d5004aa93fdaf344f64d8e117a1500404ed1023a452c1a7837afa3e5e31",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-06-28",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.04,
+      "periods": {
+        "1y": {
+          "value": 7.036244,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 28.628878,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 69.907251,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 65.262438,
+          "start_date": "2023-06-28",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "539001": {
+      "code": "539001",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/539001.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/539001.js",
+      "source_sha256": "4628fe3000d00dd93efde1f12d7460bf2d76d0b8423de978df36c76247b98c85",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2010-09-14",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.14,
+      "periods": {
+        "1y": {
+          "value": 8.135757,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 31.089619,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 80.351969,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 130.438061,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 93.57328,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 236.14,
+          "start_date": "2010-09-14",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "012752": {
+      "code": "012752",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/012752.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/012752.js",
+      "source_sha256": "b37b14d7dea74608c0da26042cc7eca1fdb4282bcfca21468d9a3e674a340c44",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2021-09-23",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.82,
+      "periods": {
+        "1y": {
+          "value": 7.823174,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.312625,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 78.711592,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 127.522743,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 87.189821,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 87.990749,
+          "start_date": "2021-09-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "023422": {
+      "code": "023422",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/023422.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/023422.js",
+      "source_sha256": "158f51858351d67f7bb57ffb75b8d5dc415e2fb6b7a48d150032abf6082c2ac0",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2025-02-12",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.83,
+      "periods": {
+        "1y": {
+          "value": 7.832717,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 21.577165,
+          "start_date": "2025-02-12",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "018043": {
+      "code": "018043",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/018043.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/018043.js",
+      "source_sha256": "4615a83b79fb917b0e3fa99b58be197a79fc1ed7e1acfc28410a0f7177ae9c52",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-04-11",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.61,
+      "periods": {
+        "1y": {
+          "value": 8.605097,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 34.211596,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 71.603014,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 98.15,
+          "start_date": "2023-04-11",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "018044": {
+      "code": "018044",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/018044.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/018044.js",
+      "source_sha256": "53e167f93d5b220e416c33113d9c7941d4a470946ac7e364e3f1a5a1cf74eab6",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-04-11",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.39,
+      "periods": {
+        "1y": {
+          "value": 8.393577,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 33.482841,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 70.252232,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 96.42,
+          "start_date": "2023-04-11",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "022525": {
+      "code": "022525",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/022525.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/022525.js",
+      "source_sha256": "fe74caa166fe6031f2a2b7c5d4938a84c06be241dabcdc372651768c79ed9c19",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2024-11-01",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.38,
+      "periods": {
+        "1y": {
+          "value": 8.383101,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 33.761005,
+          "start_date": "2024-11-01",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "270042": {
+      "code": "270042",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/270042.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/270042.js",
+      "source_sha256": "5d5ed5fd62287ab986489709f2dc3c9846579ae317a3f6918ac7fdcda4d85b3a",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2012-08-15",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.67,
+      "periods": {
+        "1y": {
+          "value": 7.672749,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 31.153216,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 76.077289,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 127.515371,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 82.623034,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 861.233377,
+          "start_date": "2012-08-15",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "006479": {
+      "code": "006479",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/006479.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/006479.js",
+      "source_sha256": "359695399cd7b24f0616732527d453ccde923c7df4531cb1effcba76ed120d8a",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2018-10-25",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.47,
+      "periods": {
+        "1y": {
+          "value": 7.472193,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.653072,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 75.052887,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 125.726225,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 80.67221,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 253.286097,
+          "start_date": "2018-10-25",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "015299": {
+      "code": "015299",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/015299.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/015299.js",
+      "source_sha256": "4fb1875a2b93045b1db249f4385982cd3eb8fcad49a5d8afb6bd15c14caeb266",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-04-14",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.53,
+      "periods": {
+        "1y": {
+          "value": 8.53291,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 31.422125,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 72.014245,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 118.442533,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 98.04,
+          "start_date": "2022-04-14",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "015300": {
+      "code": "015300",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/015300.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/015300.js",
+      "source_sha256": "e7271f6dddbab7061dc16691ed06160e70cac20373ef410ece9e28397857d92c",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-04-14",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.21,
+      "periods": {
+        "1y": {
+          "value": 8.208253,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.638582,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 70.465055,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 115.830756,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 95.37,
+          "start_date": "2022-04-14",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "161130": {
+      "code": "161130",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/161130.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/161130.js",
+      "source_sha256": "709f5c5df2292baa43aecf1ccf809bf70ab087303c62344a100f3edc3e57039d",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2017-06-23",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.6,
+      "periods": {
+        "1y": {
+          "value": 8.603498,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 32.68442,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 78.005913,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 128.447958,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 88.682859,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 333.436656,
+          "start_date": "2017-06-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "012870": {
+      "code": "012870",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/012870.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/012870.js",
+      "source_sha256": "cfc6ff293e5886a4db14ab743e8dd4e2eb35645945519617b62d45f8eb409ea9",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2021-07-23",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.26,
+      "periods": {
+        "1y": {
+          "value": 8.260847,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 31.889447,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 76.388198,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 125.503285,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 85.383912,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 86.07274,
+          "start_date": "2021-07-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "016532": {
+      "code": "016532",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/016532.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/016532.js",
+      "source_sha256": "1be81f18ec60faa8346bbf22d002e66e7d162ea875e136c5d7b0783f25f3ed14",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-09-15",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.17,
+      "periods": {
+        "1y": {
+          "value": 9.169069,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 32.316236,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 71.270495,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 118.046272,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 112.05,
+          "start_date": "2022-09-15",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "016533": {
+      "code": "016533",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/016533.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/016533.js",
+      "source_sha256": "b2a19e15227fb4e1d6a7768f69746d0979ac383aa6e12c82538321cd37664b0f",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-09-15",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.9,
+      "periods": {
+        "1y": {
+          "value": 8.895817,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 31.647717,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 69.926214,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 115.651369,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 109.57,
+          "start_date": "2022-09-15",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "021838": {
+      "code": "021838",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/021838.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/021838.js",
+      "source_sha256": "6007f9b61546ab7b85cf7c230147ac7f83d6b4664d0a3ef81c0464d74bbd65a3",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2024-07-19",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.06,
+      "periods": {
+        "1y": {
+          "value": 9.055997,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 31.86496,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 34.990685,
+          "start_date": "2024-07-19",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "016055": {
+      "code": "016055",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/016055.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/016055.js",
+      "source_sha256": "e6cb237e8db4a1a6449ea46a11f8d0dc4382d1ae9b3267ac8b3af8da258395f8",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-07-26",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.8,
+      "periods": {
+        "1y": {
+          "value": 9.801423,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 35.057471,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 75.343395,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 125.395095,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 106.8,
+          "start_date": "2022-07-26",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "016057": {
+      "code": "016057",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/016057.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/016057.js",
+      "source_sha256": "79b27d03afa6c81534a842806fb6eb3451fdf61f0e01ef9dfa7c8323f1f7f7e2",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-07-26",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.48,
+      "periods": {
+        "1y": {
+          "value": 9.476282,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 34.259016,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 73.870803,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 122.632038,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 104.02,
+          "start_date": "2022-07-26",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019547": {
+      "code": "019547",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019547.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019547.js",
+      "source_sha256": "013f1ca4b024e2c486a2478bd6478477381754c108ac5128c517524fee451603",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-11-29",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.24,
+      "periods": {
+        "1y": {
+          "value": 9.242263,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.71684,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 53.54,
+          "start_date": "2023-11-29",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "019548": {
+      "code": "019548",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/019548.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/019548.js",
+      "source_sha256": "f3e580757f5beb9facc1e3c596769b6bc51d28dfe25f265c320ef1788d5f5324",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-11-29",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 8.81,
+      "periods": {
+        "1y": {
+          "value": 8.810036,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 29.679624,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 51.79,
+          "start_date": "2023-11-29",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "018966": {
+      "code": "018966",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/018966.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/018966.js",
+      "source_sha256": "09979d362e9c457dd0e04603480c280e25c23294edcffc172f09d52fa3d5fe69",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-08-02",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 5.71,
+      "periods": {
+        "1y": {
+          "value": 5.712181,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 26.389111,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 64.180967,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 57.86,
+          "start_date": "2023-08-02",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "018967": {
+      "code": "018967",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/018967.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/018967.js",
+      "source_sha256": "cf22dee5b478fd10a3d9e75471ecbc16ca2a8b77b16102a0f00c8b9fc862fc9c",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2023-08-02",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 5.3,
+      "periods": {
+        "1y": {
+          "value": 5.296224,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 25.388143,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 62.246279,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 55.87,
+          "start_date": "2023-08-02",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "021773": {
+      "code": "021773",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/021773.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/021773.js",
+      "source_sha256": "2f10ad87f08c2e85cda39e4420c1420f425e2934844786a48abe6bc6ae71302c",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2024-07-04",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 5.61,
+      "periods": {
+        "1y": {
+          "value": 5.605096,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 26.139185,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "4y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 24.948437,
+          "start_date": "2024-07-04",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "040046": {
+      "code": "040046",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/040046.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/040046.js",
+      "source_sha256": "9b8b305fc6118c019d7b13f7aa703074722947ccf30a28de172e124514caaf61",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2013-08-02",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.97,
+      "periods": {
+        "1y": {
+          "value": 7.973796,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 30.023193,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 74.006557,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 121.934764,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 80.271739,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 696.08,
+          "start_date": "2013-08-02",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "014978": {
+      "code": "014978",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/014978.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/014978.js",
+      "source_sha256": "cc3b971c00f92da4c71418e426703ca8edc4a13535b35d1fb709722ea25ee6bf",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2022-02-22",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 7.76,
+      "periods": {
+        "1y": {
+          "value": 7.762923,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 29.512827,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 72.98269,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 120.062112,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": null,
+          "start_date": null,
+          "end_date": "2026-10-23",
+          "reason": "历史不足"
+        },
+        "all": {
+          "value": 97.032356,
+          "start_date": "2022-02-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    },
+    "160213": {
+      "code": "160213",
+      "source_label": "天天基金公开净值历史",
+      "source_url": "https://fund.eastmoney.com/160213.html",
+      "data_url": "https://fund.eastmoney.com/pingzhongdata/160213.js",
+      "source_sha256": "51e6f411968bf051e68c13091069fdcc7f2eaf725269d23c00f8398fcfd7a568",
+      "checked_at": "2026-10-26T21:30:28+08:00",
+      "as_of": "2026-10-23",
+      "history_start": "2010-04-29",
+      "method": "nav_cash_reinvestment",
+      "provider_one_year": 9.19,
+      "periods": {
+        "1y": {
+          "value": 9.191361,
+          "start_date": "2025-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "2y": {
+          "value": 34.068165,
+          "start_date": "2024-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "3y": {
+          "value": 81.949652,
+          "start_date": "2023-10-23",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "4y": {
+          "value": 135.890309,
+          "start_date": "2022-10-21",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "5y": {
+          "value": 89.994,
+          "start_date": "2021-10-22",
+          "end_date": "2026-10-23",
+          "reason": null
+        },
+        "all": {
+          "value": 1254.596269,
+          "start_date": "2010-04-29",
+          "end_date": "2026-10-23",
+          "reason": null
+        }
+      },
+      "error": null
+    }
+  }
+}

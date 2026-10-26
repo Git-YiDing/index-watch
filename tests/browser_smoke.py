@@ -1,0 +1,57 @@
+"""Optional UI smoke tests. Requires Playwright + a Chromium installation."""
+from pathlib import Path
+import json
+import shutil
+from playwright.sync_api import sync_playwright
+ROOT=Path(__file__).resolve().parents[1]
+import os
+OUT=Path(os.environ.get('SCREENSHOT_DIR',str(ROOT/'test-results')))
+OUT.mkdir(parents=True,exist_ok=True)
+html=(ROOT/'site/index.html').read_text(encoding='utf-8')
+checks=[]
+with sync_playwright() as p:
+    browser=p.chromium.launch(headless=True,executable_path=shutil.which('chromium') or p.chromium.executable_path,args=['--no-sandbox'])
+    page=browser.new_page(viewport={'width':1440,'height':1150},device_scale_factor=1)
+    errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+    page.set_content(html,wait_until="load");page.wait_for_selector('#fund-rows tr');page.wait_for_timeout(300)
+    assert page.locator('#fund-rows tr').count()==10;checks.append('Initial rows render')
+    assert page.locator('#total-count').inner_text()=='53';checks.append('53-share-class directory')
+    page.screenshot(path=str(OUT/'指数观察_桌面预览.png'),full_page=True)
+    page.locator('[data-tab="sp500"]').click()
+    assert '14' in page.locator('#result-count').inner_text();checks.append('S&P 500 filter')
+    page.locator('#search').fill('017641')
+    assert page.locator('#fund-rows tr').count()==1;checks.append('Code search')
+    page.locator('#fund-rows .fund-name').click();assert page.locator('#detail-dialog').is_visible()
+    assert '0.65%' in page.locator('#detail-content').inner_text();checks.append('Details / fee breakdown')
+    page.screenshot(path=str(OUT/'指数观察_基金详情.png'),full_page=False)
+    page.keyboard.press('Escape');assert not page.locator('#detail-dialog').is_visible();checks.append('Dialog escape closes')
+    page.locator('#search').fill('');page.locator('[data-tab="all"]').click()
+    page.locator('[data-status="paused"]').click();assert page.locator('#fund-rows tr').count()>0;checks.append('Paused shares retained')
+    assert '限额申购' not in page.locator('#fund-rows').inner_text()
+    page.locator('[data-status="all"]').click()
+    page.locator('#sort-select').select_option('fee-asc')
+    assert '0.60' in page.locator('#fund-rows tr').first.inner_text();checks.append('Fee sort')
+    page.locator('#verified-only').check()
+    assert page.locator('#empty-state').is_visible();assert page.locator('#fund-rows tr').count()==0;checks.append('No fictitious Alipay confirmations')
+    page.locator('#reset-button').click();assert page.locator('#fund-rows tr').count()==10;checks.append('Reset')
+    page.locator('#principal').fill('20000');assert page.locator('#calc-result').inner_text()=='120';checks.append('Cost calculation')
+    page.locator('#principal').fill('-1');assert page.locator('#calc-result').inner_text()=='—';checks.append('Invalid amount handling')
+    page.locator('#principal').fill('10000')
+    page.locator('#class-filter').select_option('C');assert ' A' not in page.locator('#fund-rows').inner_text();checks.append('Share-class filter')
+    page.locator('#class-filter').select_option('all')
+    with page.expect_download() as dl:page.locator('#export-button').click()
+    assert dl.value.suggested_filename.endswith('.csv');checks.append('CSV export')
+    page.locator('#next-page').click();assert page.locator('#page-label').inner_text().startswith('2');checks.append('Pagination')
+    page.locator('#theme-toggle').click();assert page.locator('html').get_attribute('data-theme')=='dark';checks.append('Dark mode')
+    page.locator('#theme-toggle').click()
+    page.locator('nav button[data-modal="method"]').click();assert page.locator('#info-dialog').is_visible();checks.append('Data methodology')
+    page.keyboard.press('Escape')
+    assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth');checks.append('No desktop page overflow')
+    mobile=browser.new_page(viewport={'width':390,'height':844},device_scale_factor=1,is_mobile=True,has_touch=True)
+    mobile.on('pageerror',lambda e:errors.append(str(e)));mobile.set_content(html,wait_until="load");mobile.wait_for_selector('#fund-rows tr')
+    assert mobile.evaluate('document.documentElement.scrollWidth <= window.innerWidth');checks.append('No mobile page overflow')
+    mobile.screenshot(path=str(OUT/'指数观察_手机预览.png'),full_page=True)
+    mobile.locator('#fund-rows .fund-name').first.click();assert mobile.locator('#detail-dialog').is_visible();checks.append('Mobile details')
+    assert not errors,errors
+    browser.close()
+print(json.dumps({'ui_checks':len(checks),'checks':checks,'javascript_errors':errors},ensure_ascii=False,indent=2))

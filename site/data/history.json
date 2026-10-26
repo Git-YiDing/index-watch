@@ -1,0 +1,1136 @@
+[
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "run",
+    "title": "公开数据检查存在缺失",
+    "description": "公开来源：完整成功 52/53，部分成功 1，失败 0。支付宝记录单独核验；未知不会自动变成可买。"
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019305",
+    "title": "019305 摩根标普500指数 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "006075",
+    "title": "006075 博时标普500ETF联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.35
+      },
+      "total": {
+        "before": null,
+        "after": 1.15
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "018738",
+    "title": "018738 博时标普500ETF联接 E · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.01
+      },
+      "total": {
+        "before": null,
+        "after": 0.81
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "017030",
+    "title": "017030 国泰标普500ETF发起联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      },
+      "total": {
+        "before": null,
+        "after": 1.05
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "018065",
+    "title": "018065 华夏标普500ETF发起式联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      },
+      "total": {
+        "before": null,
+        "after": 1.05
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "012860",
+    "title": "012860 易方达标普500指数 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.35
+      },
+      "total": {
+        "before": null,
+        "after": 1.35
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "007721",
+    "title": "007721 天弘标普500发起 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.8
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "007722",
+    "title": "007722 天弘标普500发起 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.25
+      },
+      "total": {
+        "before": null,
+        "after": 1.05
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "reference",
+    "code": "022523",
+    "title": "022523 天弘标普500发起 D · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "unknown",
+        "after": "limited"
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "022523",
+    "title": "022523 天弘标普500发起 D · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.25
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019173",
+    "title": "019173 摩根纳斯达克100指数 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "016452",
+    "title": "016452 南方纳斯达克100指数发起 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "016453",
+    "title": "016453 南方纳斯达克100指数发起 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.1
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "reference",
+    "code": "021000",
+    "title": "021000 南方纳斯达克100指数发起 I · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "unknown",
+        "after": "limited"
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "021000",
+    "title": "021000 南方纳斯达克100指数发起 I · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.01
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019736",
+    "title": "019736 宝盈纳斯达克100指数发起 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019737",
+    "title": "019737 宝盈纳斯达克100指数发起 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.25
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "reference",
+    "code": "019441",
+    "title": "019441 万家纳斯达克100指数发起式 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "unknown",
+        "after": "limited"
+      },
+      "daily_limit": {
+        "before": null,
+        "after": 5.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019441",
+    "title": "019441 万家纳斯达克100指数发起式 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "reference",
+    "code": "019442",
+    "title": "019442 万家纳斯达克100指数发起式 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "unknown",
+        "after": "limited"
+      },
+      "daily_limit": {
+        "before": null,
+        "after": 5.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019442",
+    "title": "019442 万家纳斯达克100指数发起式 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.2
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019524",
+    "title": "019524 华泰柏瑞纳斯达克100ETF发起式联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019525",
+    "title": "019525 华泰柏瑞纳斯达克100ETF发起式联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.25
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "022664",
+    "title": "022664 华泰柏瑞纳斯达克100ETF发起式联接 I · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.1
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "000834",
+    "title": "000834 大成纳斯达克100ETF联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "008971",
+    "title": "008971 大成纳斯达克100ETF联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "539001",
+    "title": "539001 建信纳斯达克100指数 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "012752",
+    "title": "012752 建信纳斯达克100指数 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "023422",
+    "title": "023422 建信纳斯达克100指数 D · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "018043",
+    "title": "018043 天弘纳斯达克100指数发起 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.6
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "018044",
+    "title": "018044 天弘纳斯达克100指数发起 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.2
+      },
+      "total": {
+        "before": null,
+        "after": 0.8
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "reference",
+    "code": "022525",
+    "title": "022525 天弘纳斯达克100指数发起 D · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "unknown",
+        "after": "limited"
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "022525",
+    "title": "022525 天弘纳斯达克100指数发起 D · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.2
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "270042",
+    "title": "270042 广发纳斯达克100ETF联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 1.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "006479",
+    "title": "006479 广发纳斯达克100ETF联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.8
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.2
+      },
+      "total": {
+        "before": null,
+        "after": 1.2
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "015299",
+    "title": "015299 华夏纳斯达克100ETF发起式联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.8
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "015300",
+    "title": "015300 华夏纳斯达克100ETF发起式联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      },
+      "total": {
+        "before": null,
+        "after": 1.1
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "161130",
+    "title": "161130 易方达纳斯达克100ETF联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.6
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "012870",
+    "title": "012870 易方达纳斯达克100ETF联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      },
+      "total": {
+        "before": null,
+        "after": 0.9
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "016533",
+    "title": "016533 嘉实纳斯达克100ETF发起联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.25
+      },
+      "total": {
+        "before": null,
+        "after": 0.85
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "021838",
+    "title": "021838 嘉实纳斯达克100ETF发起联接 I · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.1
+      },
+      "sales": {
+        "before": null,
+        "after": 0.1
+      },
+      "total": {
+        "before": null,
+        "after": 0.7
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "016055",
+    "title": "016055 博时纳斯达克100ETF发起式联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.65
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "016057",
+    "title": "016057 博时纳斯达克100ETF发起式联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.3
+      },
+      "total": {
+        "before": null,
+        "after": 0.95
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019547",
+    "title": "019547 招商纳斯达克100ETF发起式联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.65
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "019548",
+    "title": "019548 招商纳斯达克100ETF发起式联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.4
+      },
+      "total": {
+        "before": null,
+        "after": 1.05
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "018966",
+    "title": "018966 汇添富纳斯达克100ETF发起式联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.65
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "018967",
+    "title": "018967 汇添富纳斯达克100ETF发起式联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.4
+      },
+      "total": {
+        "before": null,
+        "after": 1.05
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "021773",
+    "title": "021773 汇添富纳斯达克100ETF发起式联接 E · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.5
+      },
+      "custody": {
+        "before": null,
+        "after": 0.15
+      },
+      "sales": {
+        "before": null,
+        "after": 0.1
+      },
+      "total": {
+        "before": null,
+        "after": 0.75
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "040046",
+    "title": "040046 华安纳斯达克100ETF联接 A · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.0
+      },
+      "total": {
+        "before": null,
+        "after": 0.8
+      }
+    }
+  },
+  {
+    "date": "2026-10-26T21:29:12+08:00",
+    "type": "fees",
+    "code": "014978",
+    "title": "014978 华安纳斯达克100ETF联接 C · 固定费率变化",
+    "description": "公开页列示费率变化；请查看产品文件。",
+    "changes": {
+      "management": {
+        "before": null,
+        "after": 0.6
+      },
+      "custody": {
+        "before": null,
+        "after": 0.2
+      },
+      "sales": {
+        "before": null,
+        "after": 0.2
+      },
+      "total": {
+        "before": null,
+        "after": 1.0
+      }
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "type": "initial",
+    "title": "首版数据目录建立",
+    "description": "收录 53 个人民币份额；排除等权重、增强、行业主题和场内ETF。首版不包含真实额度变更历史。"
+  }
+]

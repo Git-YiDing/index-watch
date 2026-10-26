@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="标普500与纳斯达克100场外基金观察站：比较公开申购额度、暂停状态与固定年费，独立标注支付宝渠道核验状态。">
+<meta name="theme-color" content="#f6f8fa">
+<title>指数观察 · 标普500与纳斯达克100基金看板</title>
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<a class="skip-link" href="#funds">跳到基金列表</a>
+<header class="topbar">
+ <div class="shell header-inner">
+  <a class="brand" href="#" aria-label="指数观察首页"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>指数观察<small>INDEX WATCH</small></span><span class="beta">BETA</span></a>
+  <nav aria-label="主导航"><a class="active" href="#funds">基金看板</a><button data-modal="history">更新记录</button><button data-modal="method">数据说明</button></nav>
+  <div class="header-right"><span id="snapshot-badge" class="header-date"></span><button class="icon-button" id="theme-toggle" aria-label="切换深色模式" title="切换深色模式"><span data-icon="moon"></span></button></div>
+ </div>
+</header>
+<main class="shell">
+ <section class="hero">
+  <div class="hero-copy"><div class="eyebrow"><span class="tiny-square"></span> 两个标准指数 · 一个透明看板</div><h1>额度看得清，<span>费用算得明。</span></h1><p>专注标普500与纳斯达克100的人民币场外基金。<br class="mobile-br">申购与暂停一起看，不混入等权重、增强或行业指数。</p></div>
+  <div class="hero-stamp"><span class="stamp-icon" data-icon="layers"></span><div><span class="stamp-label">支付宝渠道观察</span><strong>标准指数 · 公开数据</strong><small>独立信息工具，非支付宝官方服务</small></div></div>
+ </section>
+ <div class="notice" id="scope-notice"><span data-icon="info"></span><p><strong>渠道分开，才不误判。</strong> 参考额度来自公开渠道；支付宝额度须单独核验，未知不代表不限购。</p><button data-modal="method">查看口径 <span aria-hidden="true">↗</span></button></div>
+ <section class="overview" aria-label="指数概览">
+  <button class="overview-card sp-card" data-index="sp500"><div class="card-top"><span class="index-symbol">S&P</span><span class="chip">标准市值加权</span><span class="card-arrow">↗</span></div><div class="index-name">标普 500 <span>S&P 500</span></div><div class="card-value"><strong id="sp-count">—</strong><span>个基金份额</span></div><div class="card-foot" id="sp-foot">加载中</div></button>
+  <button class="overview-card ndx-card" data-index="nasdaq100"><div class="card-top"><span class="index-symbol">NDX</span><span class="chip">标准纳斯达克100</span><span class="card-arrow">↗</span></div><div class="index-name">纳斯达克 100 <span>NASDAQ-100</span></div><div class="card-value"><strong id="ndx-count">—</strong><span>个基金份额</span></div><div class="card-foot" id="ndx-foot">加载中</div></button>
+  <article class="overview-card update-card"><div class="card-top"><span class="update-label"><span data-icon="refresh"></span> 数据更新</span><span id="run-badge" class="chip amber">首版预览</span></div><div class="update-time">08:17 <span>/</span> 14:17</div><div class="update-caption">计划每日检查 · 北京时间</div><div class="card-foot"><span id="run-description">更新任务尚未部署</span><button data-modal="history" aria-label="查看更新记录">查看记录 <span>→</span></button></div></article>
+ </section>
+ <section class="workspace" id="funds">
+  <div class="main-column">
+   <div class="section-heading"><div><h2>基金看板 <span id="total-count" class="count-chip"></span></h2><p>按份额展示，暂停基金不会从列表消失。</p></div><button class="text-button" id="export-button"><span data-icon="download"></span> 导出 CSV</button></div>
+   <div class="board">
+    <div class="tabs" role="tablist" aria-label="选择指数"><button role="tab" aria-selected="true" data-tab="all" class="selected">全部指数 <span id="tab-all"></span></button><button role="tab" aria-selected="false" data-tab="sp500">标普 500 <span id="tab-sp"></span></button><button role="tab" aria-selected="false" data-tab="nasdaq100">纳斯达克 100 <span id="tab-ndx"></span></button></div>
+    <div class="filterbar"><label class="search"><span data-icon="search"></span><input id="search" type="search" placeholder="搜索名称、基金代码或公司" aria-label="搜索基金"><kbd>/</kbd></label><label class="select-wrap"><span class="sr-only">份额类别</span><select id="class-filter"><option value="all">全部份额</option><option value="A">A 类</option><option value="C">C 类</option><option value="other">D / E / I 类</option></select></label><label class="select-wrap"><span class="sr-only">排序方式</span><select id="sort-select"><option value="smart">参考限购优先</option><option value="fee-asc">年费从低到高</option><option value="fee-desc">年费从高到低</option><option value="limit-desc">额度从高到低</option><option value="return-desc">收益率从高到低</option><option value="return-asc">收益率从低到高</option><option value="code">基金代码</option></select></label></div>
+    <div class="statusbar" role="group" aria-label="筛选申购状态"><button data-status="all" class="chosen">全部状态</button><button data-status="available"><i class="dot green"></i>参考可申购</button><button data-status="paused"><i class="dot gray"></i>暂停记录</button><button data-status="unknown"><i class="dot amber-dot"></i>待核验</button><label class="only-verified"><input type="checkbox" id="verified-only"><span>仅支付宝已核验</span></label></div>
+    <div class="performancebar"><label for="return-period">收益区间</label><select id="return-period"><option value="1y">近 1 年</option><option value="2y">近 2 年</option><option value="3y">近 3 年</option><option value="4y">近 4 年</option><option value="5y">近 5 年</option><option value="all">全部（可得历史）</option></select><span>区间累计 · 非年化</span><button data-modal="returns">收益口径 <span aria-hidden="true">↗</span></button></div>
+    <p class="mobile-table-hint">手机端按卡片展示，点基金名称可查看详情。</p><div class="table-scroll"><table><thead><tr><th scope="col">基金 / 份额</th><th scope="col">公开参考状态</th><th scope="col"><button id="sort-limit">参考日限额 <span>↕</span></button></th><th scope="col"><button id="sort-fee">固定年费 <span>↕</span></button></th><th scope="col" class="return-heading" aria-sort="none"><button id="sort-return"><span id="return-heading-label">近1年收益率</span><span id="return-sort-icon" aria-hidden="true">↕</span></button></th><th scope="col">支付宝核验</th><th scope="col"><span class="sr-only">查看详情</span></th></tr></thead><tbody id="fund-rows"></tbody></table></div>
+    <div id="empty-state" class="empty-state" hidden><span data-icon="search"></span><h3>没有符合条件的基金</h3><p id="empty-description">试试更换关键词或筛选条件。</p><button id="reset-button" class="primary-button">重置筛选</button></div>
+    <div class="table-footer"><span id="result-count" aria-live="polite"></span><div class="pagination"><button id="prev-page" aria-label="上一页">←</button><span id="page-label"></span><button id="next-page" aria-label="下一页">→</button></div></div>
+   </div>
+   <div class="table-note"><span data-icon="info"></span><p>“固定年费”为管理费、托管费、销售服务费的列示费率合计，不是实际总费用率。不同份额或渠道额度可能合并计算，<strong>本页不把各行限额相加。</strong></p></div>
+  </div>
+  <aside class="sidebar">
+   <section class="side-card status-panel"><div class="side-title"><span data-icon="shield"></span><h3>数据可信度</h3></div><div class="trust-row"><span>支付宝额度已核验</span><strong id="verified-count">0 / 53</strong></div><div class="trust-track"><span id="trust-progress"></span></div><p class="side-muted" id="trust-copy">尚未接入已授权的支付宝数据。公开渠道的限额不直接标为支付宝可买。</p><div class="status-lines"><div><span>公开来源快照</span><strong id="snapshot-date">—</strong></div><div><span>已收集费率</span><strong id="fee-coverage">—</strong></div><div><span>记录健康状态</span><strong id="health-state">预览</strong></div></div><button class="side-link" data-modal="method">来源与核验规则 <span>↗</span></button></section>
+   <section class="side-card cost-panel"><div class="side-title"><span data-icon="calculator"></span><h3>把费率换成金额</h3></div><p class="side-muted">用固定资产额理解年费，不预测收益。</p><label class="amount-label" for="principal">假设全年持有金额</label><div class="amount-input"><span>¥</span><input type="number" id="principal" min="0" max="1000000000" step="1000" value="10000" inputmode="decimal" aria-label="全年固定持有金额"></div><label class="sr-only" for="calc-fund">计算使用的基金</label><select id="calc-fund" class="calc-select"></select><div class="cost-value"><span id="calc-result">60</span><small>元 / 年</small></div><div class="cost-equation" id="calc-equation"></div><p class="fineprint">仅用列示固定费率估算。未含申购赎回、交易税费或穿透后的底层费用，不代表真实扣费金额。</p></section>
+   <section class="side-card scope-panel"><div class="side-title"><span data-icon="check-circle"></span><h3>只看你要的指数</h3></div><p>收录标准标普500、标准纳斯达克100的人民币场外份额。</p><div class="scope-tags"><span>指数基金</span><span>ETF 联接</span><span>标准指数 FOF</span></div><div class="scope-excluded">不含等权重 / 增强 / 行业主题 / 杠杆反向 / 场内 ETF</div></section>
+  </aside>
+ </section>
+ <section class="bottom-note"><div><span class="small-label">TRANSPARENCY FIRST</span><h3>每一个数字，都应知道从哪里来。</h3></div><p>点击基金行，可查看费率拆分、公开来源与核验日期。<br>资料缺失保留空缺，抓取失败保留原日期，不把旧数据改成“今日更新”。</p><button class="outline-button" data-modal="method">阅读数据说明 <span>↗</span></button></section>
+</main>
+<footer class="shell footer"><span>指数观察 <span class="footer-dot">·</span> 独立基金信息看板</span><span>人民币场外份额 · 非交易平台 · 不构成投资建议</span><button data-modal="about">v0.1 / 首版</button></footer>
+<dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+<dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"><div class="dialog-top"><span class="small-label">INDEX WATCH / NOTES</span><button class="icon-button close-dialog" aria-label="关闭"><span data-icon="x"></span></button></div><div id="info-content"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><div class="noscript-note">此看板需要 JavaScript 才能显示筛选和基金数据。请启用 JavaScript，或读取发布包中的 data/funds.json。</div></noscript>
+<script id="seed-data" type="application/json">/*__DATA__*/</script>
+<script>/*__JS__*/</script>
+</body></html>

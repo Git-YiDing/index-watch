@@ -1,0 +1,26 @@
+{
+  "ui_checks": 20,
+  "checks": [
+    "Initial rows render",
+    "53-share-class directory",
+    "S&P 500 filter",
+    "Code search",
+    "Details / fee breakdown",
+    "Dialog escape closes",
+    "Paused shares retained",
+    "Fee sort",
+    "No fictitious Alipay confirmations",
+    "Reset",
+    "Cost calculation",
+    "Invalid amount handling",
+    "Share-class filter",
+    "CSV export",
+    "Pagination",
+    "Dark mode",
+    "Data methodology",
+    "No desktop page overflow",
+    "No mobile page overflow",
+    "Mobile details"
+  ],
+  "javascript_errors": []
+}
