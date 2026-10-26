@@ -3,9 +3,13 @@
 展示标准标普500与纳斯达克100人民币场外基金的申购状态、公开参考限额、列示年费及历史累计收益。保留暂停申购基金，排除等权重、增强、行业主题、杠杆反向、美元份额与直接在交易所买卖的ETF。
 
 - 仓库：https://github.com/Git-YiDing/index-watch
-- GitHub Pages目标地址：https://git-yiding.github.io/index-watch/
+- 已上线网站：https://git-yiding.github.io/index-watch/
 - 部署进度、核验结果及时间：见 [主报告.html](主报告.html) 和 [CHANGELOG.html](CHANGELOG.html)。
 - 每日计划：北京时间08:17、14:17，由 [GitHub Actions](https://github.com/Git-YiDing/index-watch/actions/workflows/daily.yml) 执行；GitHub调度可能延迟或停用，以实际运行日志和字段日期为准。
+
+## 已完成部署核验
+
+2026-10-26 15:38（本机时间）确认公开站点7个资源地址均返回HTTP 200，48项测试通过。首次GitHub运行已完成真实采集和发布；53份额状态、53份额收益更新成功，52份额费率完整。160213缺少销售服务费，最终数据完整性检查发出告警，所以运行总状态显示failure；Publish步骤成功。详见[首次运行](https://github.com/Git-YiDing/index-watch/actions/runs/40331788792)。
 
 ## 数据边界
 
