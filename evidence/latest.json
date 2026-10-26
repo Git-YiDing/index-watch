@@ -1,26 +1,7 @@
 {
-  "checked_at": "2026-10-26T21:36:04+08:00",
+  "checked_at": "2026-10-26T22:05:19+08:00",
   "source": "https://fundf10.eastmoney.com",
   "facts": {
-    "017641": {
-      "sha256": "2387bf9ad11e5f80c19d7e2aa46fc7234a568d2fdd428ee7c4d42baefb3e6298",
-      "reference": {
-        "status": "limited",
-        "daily_limit": 10.0,
-        "unlimited": false,
-        "source_displayed_limit": 10.0,
-        "raw_status": "限大额",
-        "raw_limit": "10.00元"
-      },
-      "fees": {
-        "management": 0.5,
-        "custody": 0.15,
-        "sales": 0.0,
-        "total": 0.65,
-        "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
     "019305": {
       "sha256": "5d2a1a36ca1c608242655e47ae08233908f48da8d721fee3c95ad195af4f404b",
       "reference": {
@@ -37,6 +18,25 @@
         "sales": 0.3,
         "total": 0.95,
         "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
+    "017641": {
+      "sha256": "2387bf9ad11e5f80c19d7e2aa46fc7234a568d2fdd428ee7c4d42baefb3e6298",
+      "reference": {
+        "status": "limited",
+        "daily_limit": 10.0,
+        "unlimited": false,
+        "source_displayed_limit": 10.0,
+        "raw_status": "限大额",
+        "raw_limit": "10.00元"
+      },
+      "fees": {
+        "management": 0.5,
+        "custody": 0.15,
+        "sales": 0.0,
+        "total": 0.65,
+        "subscription_standard": 1.2
       },
       "warnings": []
     },
