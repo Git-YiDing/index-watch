@@ -7,7 +7,7 @@ periods, and failed refreshes keep the previous observation and its date.
 from __future__ import annotations
 
 import argparse
-from bisect import bisect_right
+from bisect import bisect_left, bisect_right
 from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
 from datetime import date, datetime, timedelta
@@ -23,6 +23,8 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo('Asia/Shanghai')
 PERIODS = ('1y', '2y', '3y', '4y', '5y', 'all')
+DCA_PERIODS = ('1y', '2y', '3y', 'all')
+DCA_DAILY_AMOUNT = 100
 
 
 def assignment(text, name):
@@ -43,8 +45,59 @@ def years_before(day, years):
         return day.replace(year=day.year-years, day=28)
 
 
+def calculate_dca(dates, factors, errors, today):
+    """Invest at each available weekday's closing NAV, after that day's return.
+
+    Calendar windows are anchored to the Shanghai collection date. The final
+    value uses the latest disclosed NAV; no deposits or NAVs are fabricated
+    between that observation and today. All periods include both endpoints.
+    """
+    periods = {}
+    for period in DCA_PERIODS:
+        target = dates[0] if period == 'all' else years_before(today, int(period[0]))
+        eligible = [i for i in range(bisect_left(dates, target), len(dates))
+                    if dates[i].weekday() < 5 and dates[i] <= today]
+        item = dict(value=None, profit=None, invested=None, market_value=None,
+                    contribution_count=None, requested_start=target.isoformat(),
+                    requested_end=today.isoformat(), first_contribution=None,
+                    last_contribution=None, valuation_date=dates[-1].isoformat(), reason=None)
+        if dates[0] > target:
+            item['reason'] = '历史不足'
+        elif not eligible:
+            item['reason'] = '区间内无可用工作日净值'
+        elif period != 'all' and (dates[eligible[0]]-target).days > 14:
+            item['reason'] = '区间起点缺失'
+        elif any(errors[eligible[0]+1:]):
+            item['reason'] = next(x for x in errors[eligible[0]+1:] if x)
+        else:
+            eligible_set = set(eligible)
+            value = 0.0
+            for i in range(eligible[0], len(dates)):
+                # New money receives returns only after its own purchase date.
+                if i > eligible[0]:
+                    value *= factors[i]
+                if i in eligible_set:
+                    value += DCA_DAILY_AMOUNT
+            invested = DCA_DAILY_AMOUNT*len(eligible)
+            profit = value-invested
+            if not math.isfinite(value) or value < 0:
+                raise ValueError('Invalid DCA value')
+            item.update(value=round(profit/invested*100, 6),
+                        profit=round(profit, 2), invested=invested,
+                        market_value=round(value, 2), contribution_count=len(eligible),
+                        first_contribution=dates[eligible[0]].isoformat(),
+                        last_contribution=dates[eligible[-1]].isoformat())
+        periods[period] = item
+    return dict(schema_version=1, basis_date=today.isoformat(), timezone='Asia/Shanghai',
+                daily_amount=DCA_DAILY_AMOUNT, method='weekday_nav_cash_reinvestment',
+                periods=periods)
+
+
 def calculate_returns(text, code, now=None):
     now = now or datetime.now(TZ)
+    if now.tzinfo is None:
+        raise ValueError('Collection time requires a timezone')
+    now = now.astimezone(TZ)
     if assignment(text, 'fS_code') != code:
         raise ValueError('Provider fund code mismatch')
     nav = assignment(text, 'Data_netWorthTrend')
@@ -129,6 +182,7 @@ def calculate_returns(text, code, now=None):
         'method': 'nav_cash_reinvestment',
         'provider_one_year': published,
         'periods': periods,
+        'dca': calculate_dca(dates, factors, errors, now.date()),
         'error': None,
     }
 
@@ -162,6 +216,8 @@ def refresh(cache_directory=None):
         'meta': {
             'schema_version': 1, 'last_attempt_at': now.isoformat(timespec='seconds'),
             'return_type': 'cumulative', 'currency': 'CNY',
+            'dca_schema_version': 1,
+            'dca_method_note': '每日100元模拟定投：以每次采集时的北京时间当天向前回溯1、2、3个日历年；全部从该份额最早可得净值日起算。含窗口起止日，仅在周一至周五且有净值的日期投入，按当日净值买入；分红按除息日净值再投资。估值截至最新已披露净值日，未披露日期不补投。累计收益率为盈亏除以累计投入，非年化；不计个人申赎费用，不模拟历史限购和暂停申购。',
             'method_note': '区间累计收益率（非年化），现金分红按除息日净值再投资；未计个人申购赎回费用。年份相对各份额最新净值日回溯，起点取当日或之前最近一次净值。全部为最早可得净值日起算，未必等于基金法律成立日。',
             'success_count': sum(not f.get('error') for f in funds.values()),
             'total_count': len(catalog),

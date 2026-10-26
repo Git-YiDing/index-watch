@@ -40,7 +40,7 @@ jobs:
           SCHEDULE_ENABLED: 'true'
           ALIPAY_FEED_URL: ${{ secrets.ALIPAY_FEED_URL }}
         run: conda run -n tmp python scripts/update.py
-      - name: Update dated cumulative returns
+      - name: Update dated returns and rolling DCA
         run: conda run -n tmp python scripts/update_returns.py
       - name: Validate the data and build
         run: |

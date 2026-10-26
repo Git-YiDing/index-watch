@@ -45,7 +45,7 @@ function createApp({online=false,missingReturns=false,seed=bootData}={}){
 (async()=>{
   const app=createApp(),{$,$$,change,click,search}=app;
   check($$('#fund-rows tr').length===10,'Initial page still has ten funds');
-  check($$('#fund-rows tr:first-child td').length===7,'New column renders without losing original columns');
+  check($$('#fund-rows tr:first-child td').length===8,'New column renders without losing original columns');
   check($('#return-period').value==='1y'&&$('#return-heading-label').textContent==='近1年收益率','One year is default');
   check($$('#return-period option').length===6,'All six periods are selectable');
   for(const period of ['1y','2y','3y','4y','5y','all']){
@@ -87,5 +87,43 @@ function createApp({online=false,missingReturns=false,seed=bootData}={}){
   const zero=structuredClone(bootData);for(const f of Object.values(zero.returns.funds))f.periods['1y'].value=0;
   const zeroApp=createApp({seed:zero});
   check(zeroApp.$('.return-value').textContent==='0.00%','Actual zero return is displayed as zero');
+  const dca=createApp();
+  check(dca.$$('#dca-period option').length===4&&dca.$('#dca-period').value==='1y','Four independent DCA windows default to one year');
+  for(const period of ['1y','2y','3y','all']){
+    dca.change('#dca-period',period);
+    const row=dca.$('#fund-rows tr'),record=bootData.returns.funds[row.getAttribute('data-row')];
+    const item=record.dca.periods[period];
+    const expected=item.value===null?'—':`${item.value>0?'+':''}${item.value.toFixed(2)}%`;
+    check(row.querySelector('.dca-cell').textContent.includes(expected),`DCA ${period} displays correct value`);
+    check(dca.$('#return-period').value==='1y','Changing DCA leaves the lump-sum period intact');
+  }
+  dca.change('#dca-period','3y');dca.click('#sort-dca');
+  let dcaValues=dca.$$('#fund-rows tr').map(row=>bootData.returns.funds[row.getAttribute('data-row')].dca.periods['3y'].value);
+  check(dcaValues.every((v,i)=>v!==null&&(!i||v<=dcaValues[i-1])),'Descending DCA sort uses selected period');
+  dca.click('#sort-dca');
+  dcaValues=dca.$$('#fund-rows tr').map(row=>bootData.returns.funds[row.getAttribute('data-row')].dca.periods['3y'].value);
+  check(dcaValues.every((v,i)=>v!==null&&(!i||v>=dcaValues[i-1])),'Ascending DCA sort keeps unknown values last');
+  check(dca.$('.dca-heading').getAttribute('aria-sort')==='ascending','DCA sort direction is accessible');
+  dca.click('.dca-value');
+  check(dca.$$('.dca-detail-grid>div').length===4,'DCA detail includes four windows');
+  for(const label of ['窗口基准','累计投入','估算市值','投入次数','净值估值','历史模拟'])check(dca.$('#detail-content').textContent.includes(label),`DCA detail contains ${label}`);
+  dca.click('#detail-dialog .close-dialog');
+  dca.click('#export-button');const dcaCsv=await dca.download().text();
+  check(dcaCsv.includes('近3年每日100元模拟定投收益率_%')&&dcaCsv.includes('定投窗口基准日')&&dcaCsv.includes('定投累计盈亏_元'),'CSV exports DCA amount, dates and selected window');
+  dca.click('[data-modal="dca"]');check(dca.$('#info-dialog').textContent.includes('不使用固定起始日'),'DCA method explains rolling calendar windows');dca.click('#info-dialog .close-dialog');
+  dca.search('017641');dca.click('#reset-button');check(dca.$('#dca-period').value==='1y','Reset restores DCA period');
+  check(online.$('.dca-value')!==null,'Network failure retains embedded DCA snapshot');
+  check(older.$('.dca-cell').textContent.includes('暂无定投数据'),'Old snapshots without DCA remain usable');
+  const staleSeed=structuredClone(bootData);
+  for(const record of Object.values(staleSeed.returns.funds))record.dca.basis_date='2000-01-01';
+  const stale=createApp({seed:staleSeed});check(stale.$('.dca-cell').textContent.includes('待更新 · 基准 2000-01-01'),'Outdated window is labelled with original basis, never relabelled today');
+  const failedSeed=structuredClone(bootData);
+  for(const record of Object.values(failedSeed.returns.funds))record.error='采集失败';
+  const failed=createApp({seed:failedSeed});check(failed.$('.dca-cell').textContent.includes('更新失败'),'Failed refresh remains visible in DCA column');
+  const dcaZero=structuredClone(bootData);
+  for(const record of Object.values(dcaZero.returns.funds))record.dca.periods['1y'].value=0;
+  check(createApp({seed:dcaZero}).$('.dca-value').textContent==='0.00%','Zero DCA return is not missing');
+  const mobileCss=fs.readFileSync(path.join(root,'site/assets/style.css'),'utf8');
+  check(mobileCss.includes('@media(max-width:700px)')&&mobileCss.includes('.dca-heading,.dca-cell{min-width:0}'),'DCA column has mobile card width rules');
   console.log(JSON.stringify({dom_checks:checks,status:'passed',browser_layout:'not verified'},null,2));
 })().catch(error=>{console.error(error);process.exitCode=1;});
