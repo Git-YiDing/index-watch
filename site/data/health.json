@@ -1,19 +1,17 @@
 {
   "mode": "collected",
   "status": "partial",
-  "last_attempt_at": "2026-10-30T13:52:11+08:00",
+  "last_attempt_at": "2026-10-30T20:58:45+08:00",
   "last_success_at": null,
   "source": "eastmoney",
-  "succeeded": 51,
+  "succeeded": 52,
   "partial": 1,
-  "failed": 1,
+  "failed": 0,
   "total": 53,
-  "reference_updated": 52,
+  "reference_updated": 53,
   "alipay_status": "not_connected",
   "alipay_records_accepted": 0,
-  "message": "公开来源：完整成功 51/53，部分成功 1，失败 1。支付宝记录单独核验；未知不会自动变成可买。",
+  "message": "公开来源：完整成功 52/53，部分成功 1，失败 0。支付宝记录单独核验；未知不会自动变成可买。",
   "warnings": [],
-  "errors": {
-    "023422": "ConnectionError: source unavailable or parser rejected page; prior timestamps retained."
-  }
+  "errors": {}
 }
