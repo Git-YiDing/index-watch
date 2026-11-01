@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-31T20:34:40+08:00",
+  "checked_at": "2026-11-01T14:09:36+08:00",
   "source": "https://fundf10.eastmoney.com",
   "facts": {
     "019305": {
@@ -40,25 +40,6 @@
       },
       "warnings": []
     },
-    "050025": {
-      "sha256": "81c1a976d4dd762e52ebf506ab922d17228e68ca6c304231109fc83d72804220",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": 100.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "100.00元"
-      },
-      "fees": {
-        "management": 0.6,
-        "custody": 0.2,
-        "sales": 0.0,
-        "total": 0.8,
-        "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
     "006075": {
       "sha256": "646399a95ead809e10ce0e934347cbbf5e7cdbfb088d93440ff644ce7b7760da",
       "reference": {
@@ -78,22 +59,22 @@
       },
       "warnings": []
     },
-    "018738": {
-      "sha256": "3142e82e667b245faa480c9bb40c10830a5daa1bb1cb90cbed533e42a523d641",
+    "050025": {
+      "sha256": "81c1a976d4dd762e52ebf506ab922d17228e68ca6c304231109fc83d72804220",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
         "unlimited": false,
-        "source_displayed_limit": null,
+        "source_displayed_limit": 100.0,
         "raw_status": "暂停申购",
-        "raw_limit": null
+        "raw_limit": "100.00元"
       },
       "fees": {
         "management": 0.6,
         "custody": 0.2,
-        "sales": 0.01,
-        "total": 0.81,
-        "subscription_standard": 0.0
+        "sales": 0.0,
+        "total": 0.8,
+        "subscription_standard": 1.2
       },
       "warnings": []
     },
@@ -116,21 +97,21 @@
       },
       "warnings": []
     },
-    "017030": {
-      "sha256": "a18c5eab205b283767e22959c9b12974ab23a6a3d45eb159933ee8f56657400c",
+    "018738": {
+      "sha256": "3142e82e667b245faa480c9bb40c10830a5daa1bb1cb90cbed533e42a523d641",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
         "unlimited": false,
-        "source_displayed_limit": 10000.0,
+        "source_displayed_limit": null,
         "raw_status": "暂停申购",
-        "raw_limit": "1.00万元"
+        "raw_limit": null
       },
       "fees": {
         "management": 0.6,
-        "custody": 0.15,
-        "sales": 0.3,
-        "total": 1.05,
+        "custody": 0.2,
+        "sales": 0.01,
+        "total": 0.81,
         "subscription_standard": 0.0
       },
       "warnings": []
@@ -154,25 +135,6 @@
       },
       "warnings": []
     },
-    "161125": {
-      "sha256": "9f38f1b5652da90266d25f01b29d2d237a7a5c5d3262bd65a2bca769b1d900f1",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": 10.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "10.00元"
-      },
-      "fees": {
-        "management": 0.8,
-        "custody": 0.2,
-        "sales": 0.0,
-        "total": 1.0,
-        "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
     "018065": {
       "sha256": "0b2d31c448c5af7894b9e8ba16f1cfbdc3adaeb000c94329e8c6548582d32448",
       "reference": {
@@ -192,6 +154,44 @@
       },
       "warnings": []
     },
+    "017030": {
+      "sha256": "a18c5eab205b283767e22959c9b12974ab23a6a3d45eb159933ee8f56657400c",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 10000.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "1.00万元"
+      },
+      "fees": {
+        "management": 0.6,
+        "custody": 0.15,
+        "sales": 0.3,
+        "total": 1.05,
+        "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
+    "161125": {
+      "sha256": "9f38f1b5652da90266d25f01b29d2d237a7a5c5d3262bd65a2bca769b1d900f1",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 10.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "10.00元"
+      },
+      "fees": {
+        "management": 0.8,
+        "custody": 0.2,
+        "sales": 0.0,
+        "total": 1.0,
+        "subscription_standard": 1.2
+      },
+      "warnings": []
+    },
     "012860": {
       "sha256": "07c06051199df3688ca045d582ca9a8a1d26db1f0339008ad1031b95f2ee2388",
       "reference": {
@@ -208,25 +208,6 @@
         "sales": 0.35,
         "total": 1.35,
         "subscription_standard": 0.0
-      },
-      "warnings": []
-    },
-    "007721": {
-      "sha256": "873a05d6a722da53746f1695dca86926b8d92118f19ac33431f56ee0db3ac76b",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": 100.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "100.00元"
-      },
-      "fees": {
-        "management": 0.6,
-        "custody": 0.2,
-        "sales": 0.0,
-        "total": 0.8,
-        "subscription_standard": 1.0
       },
       "warnings": []
     },
@@ -325,6 +306,25 @@
       },
       "warnings": []
     },
+    "007721": {
+      "sha256": "873a05d6a722da53746f1695dca86926b8d92118f19ac33431f56ee0db3ac76b",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 100.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "100.00元"
+      },
+      "fees": {
+        "management": 0.6,
+        "custody": 0.2,
+        "sales": 0.0,
+        "total": 0.8,
+        "subscription_standard": 1.0
+      },
+      "warnings": []
+    },
     "016453": {
       "sha256": "3ae1b162833410390e27d2deec006e43a2c9a9ab214280eca55452f51e01aa26",
       "reference": {
@@ -340,6 +340,25 @@
         "custody": 0.15,
         "sales": 0.1,
         "total": 0.75,
+        "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
+    "021000": {
+      "sha256": "626e1308ce319fbd017ff9a40f6b7569e1433234964a76d5bc7e5a80257f105d",
+      "reference": {
+        "status": "limited",
+        "daily_limit": null,
+        "unlimited": false,
+        "source_displayed_limit": null,
+        "raw_status": "限大额",
+        "raw_limit": null
+      },
+      "fees": {
+        "management": 0.5,
+        "custody": 0.15,
+        "sales": 0.01,
+        "total": 0.66,
         "subscription_standard": 0.0
       },
       "warnings": []
@@ -360,25 +379,6 @@
         "sales": 0.0,
         "total": 0.65,
         "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
-    "021000": {
-      "sha256": "626e1308ce319fbd017ff9a40f6b7569e1433234964a76d5bc7e5a80257f105d",
-      "reference": {
-        "status": "limited",
-        "daily_limit": null,
-        "unlimited": false,
-        "source_displayed_limit": null,
-        "raw_status": "限大额",
-        "raw_limit": null
-      },
-      "fees": {
-        "management": 0.5,
-        "custody": 0.15,
-        "sales": 0.01,
-        "total": 0.66,
-        "subscription_standard": 0.0
       },
       "warnings": []
     },
@@ -686,25 +686,6 @@
       },
       "warnings": []
     },
-    "015299": {
-      "sha256": "78d82d4eeaff1b641008c577c5b9bce65f0a0f12abe2d469a81e8fa224f031b2",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": 100.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "100.00元"
-      },
-      "fees": {
-        "management": 0.6,
-        "custody": 0.2,
-        "sales": 0.0,
-        "total": 0.8,
-        "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
     "015300": {
       "sha256": "76706e064449091ff5c34e251bca5f18bc5b31946ae578ddcfb135344c1356e4",
       "reference": {
@@ -781,8 +762,8 @@
       },
       "warnings": []
     },
-    "016533": {
-      "sha256": "8e7002628cb42b819b14e2ec30d3cae9a7219252770bf7a5c1499ca7efd160f7",
+    "015299": {
+      "sha256": "78d82d4eeaff1b641008c577c5b9bce65f0a0f12abe2d469a81e8fa224f031b2",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -792,11 +773,11 @@
         "raw_limit": "100.00元"
       },
       "fees": {
-        "management": 0.5,
-        "custody": 0.1,
-        "sales": 0.25,
-        "total": 0.85,
-        "subscription_standard": 0.0
+        "management": 0.6,
+        "custody": 0.2,
+        "sales": 0.0,
+        "total": 0.8,
+        "subscription_standard": 1.2
       },
       "warnings": []
     },
@@ -853,6 +834,25 @@
         "custody": 0.15,
         "sales": 0.3,
         "total": 0.95,
+        "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
+    "016533": {
+      "sha256": "8e7002628cb42b819b14e2ec30d3cae9a7219252770bf7a5c1499ca7efd160f7",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 100.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "100.00元"
+      },
+      "fees": {
+        "management": 0.5,
+        "custody": 0.1,
+        "sales": 0.25,
+        "total": 0.85,
         "subscription_standard": 0.0
       },
       "warnings": []
@@ -933,25 +933,6 @@
       },
       "warnings": []
     },
-    "021773": {
-      "sha256": "7bf255f80a7ebf5815dfa71a575b89d110adffc8d19cd1398ada6634e707aed3",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": 10.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "10.00元"
-      },
-      "fees": {
-        "management": 0.5,
-        "custody": 0.15,
-        "sales": 0.1,
-        "total": 0.75,
-        "subscription_standard": 0.0
-      },
-      "warnings": []
-    },
     "040046": {
       "sha256": "f7c6590e5d947b14ee45e67ef4cfaa230bafe4e90494de16658c4a556ace9d6f",
       "reference": {
@@ -971,21 +952,21 @@
       },
       "warnings": []
     },
-    "014978": {
-      "sha256": "7056f6eccc94b8abfb008ce84a484de542d677206f876c151b0eae91e60a1368",
+    "021773": {
+      "sha256": "7bf255f80a7ebf5815dfa71a575b89d110adffc8d19cd1398ada6634e707aed3",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
         "unlimited": false,
-        "source_displayed_limit": 5.0,
+        "source_displayed_limit": 10.0,
         "raw_status": "暂停申购",
-        "raw_limit": "5.00元"
+        "raw_limit": "10.00元"
       },
       "fees": {
-        "management": 0.6,
-        "custody": 0.2,
-        "sales": 0.2,
-        "total": 1.0,
+        "management": 0.5,
+        "custody": 0.15,
+        "sales": 0.1,
+        "total": 0.75,
         "subscription_standard": 0.0
       },
       "warnings": []
@@ -1004,6 +985,25 @@
       "warnings": [
         "Incomplete recurring fee breakdown"
       ]
+    },
+    "014978": {
+      "sha256": "7056f6eccc94b8abfb008ce84a484de542d677206f876c151b0eae91e60a1368",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 5.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "5.00元"
+      },
+      "fees": {
+        "management": 0.6,
+        "custody": 0.2,
+        "sales": 0.2,
+        "total": 1.0,
+        "subscription_standard": 0.0
+      },
+      "warnings": []
     }
   }
 }
