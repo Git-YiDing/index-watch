@@ -1,28 +1,9 @@
 {
-  "checked_at": "2026-11-01T21:28:01+08:00",
+  "checked_at": "2026-11-02T14:07:49+08:00",
   "source": "https://fundf10.eastmoney.com",
   "facts": {
-    "017641": {
-      "sha256": "9c0dd0724cd82d468a2fa32753b5b33ac225df6015caf2c0fe2fad4386b86e18",
-      "reference": {
-        "status": "limited",
-        "daily_limit": 10.0,
-        "unlimited": false,
-        "source_displayed_limit": 10.0,
-        "raw_status": "限大额",
-        "raw_limit": "10.00元"
-      },
-      "fees": {
-        "management": 0.5,
-        "custody": 0.15,
-        "sales": 0.0,
-        "total": 0.65,
-        "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
     "019305": {
-      "sha256": "50c9d5f7dc8c80f6288dcfb7183a5cc34bd96c2db1278d5ab627cbb164be8e1f",
+      "sha256": "7f2deeada1e695477774b40a980ae21dd568336655336c075f8891cd46912166",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -40,21 +21,21 @@
       },
       "warnings": []
     },
-    "050025": {
-      "sha256": "81c1a976d4dd762e52ebf506ab922d17228e68ca6c304231109fc83d72804220",
+    "017641": {
+      "sha256": "3c21a34464434d91a78e6d3d791b4e724fae0f50c32e303dfb3ba97c9d9c2399",
       "reference": {
-        "status": "paused",
-        "daily_limit": 0,
+        "status": "limited",
+        "daily_limit": 10.0,
         "unlimited": false,
-        "source_displayed_limit": 100.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "100.00元"
+        "source_displayed_limit": 10.0,
+        "raw_status": "限大额",
+        "raw_limit": "10.00元"
       },
       "fees": {
-        "management": 0.6,
-        "custody": 0.2,
+        "management": 0.5,
+        "custody": 0.15,
         "sales": 0.0,
-        "total": 0.8,
+        "total": 0.65,
         "subscription_standard": 1.2
       },
       "warnings": []
@@ -75,6 +56,25 @@
         "sales": 0.35,
         "total": 1.15,
         "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
+    "050025": {
+      "sha256": "81c1a976d4dd762e52ebf506ab922d17228e68ca6c304231109fc83d72804220",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 100.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "100.00元"
+      },
+      "fees": {
+        "management": 0.6,
+        "custody": 0.2,
+        "sales": 0.0,
+        "total": 0.8,
+        "subscription_standard": 1.2
       },
       "warnings": []
     },
@@ -116,25 +116,6 @@
       },
       "warnings": []
     },
-    "018064": {
-      "sha256": "79ed2d38a4294d83408f3f087775f48d4871e2bc2a78e778596759d2c5abca36",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": 100.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "100.00元"
-      },
-      "fees": {
-        "management": 0.6,
-        "custody": 0.15,
-        "sales": 0.0,
-        "total": 0.75,
-        "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
     "017030": {
       "sha256": "a18c5eab205b283767e22959c9b12974ab23a6a3d45eb159933ee8f56657400c",
       "reference": {
@@ -154,8 +135,27 @@
       },
       "warnings": []
     },
+    "018064": {
+      "sha256": "97087a7abd1cbe3775dcf2152c961be30c6301bf41143e630188cdd74fad4ccc",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 100.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "100.00元"
+      },
+      "fees": {
+        "management": 0.6,
+        "custody": 0.15,
+        "sales": 0.0,
+        "total": 0.75,
+        "subscription_standard": 1.2
+      },
+      "warnings": []
+    },
     "018065": {
-      "sha256": "0b2d31c448c5af7894b9e8ba16f1cfbdc3adaeb000c94329e8c6548582d32448",
+      "sha256": "fb6caecf6da8fb23989627f5eefc3c4d26b1a45dddf38edc232e4c147af91b08",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -174,7 +174,7 @@
       "warnings": []
     },
     "161125": {
-      "sha256": "9f38f1b5652da90266d25f01b29d2d237a7a5c5d3262bd65a2bca769b1d900f1",
+      "sha256": "256f6b6c398eeee4813d6775bc89c2a9ec86050bc66c310dc9905dd8f5711fc7",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -193,7 +193,7 @@
       "warnings": []
     },
     "012860": {
-      "sha256": "07c06051199df3688ca045d582ca9a8a1d26db1f0339008ad1031b95f2ee2388",
+      "sha256": "6deabf023ca7220d6f21e7b3fd1afb3b5a8df482e6b6424d510491d249f1ab6b",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -212,7 +212,7 @@
       "warnings": []
     },
     "007721": {
-      "sha256": "873a05d6a722da53746f1695dca86926b8d92118f19ac33431f56ee0db3ac76b",
+      "sha256": "65c418c5e9750b4bc0d5923d4d4e8102216c4f411d501491efd6819f4193afda",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -231,7 +231,7 @@
       "warnings": []
     },
     "007722": {
-      "sha256": "46a95e7dd785b3ecfee97cf0c365ec5f2a0f29238ca748ff47273d9a98cb979c",
+      "sha256": "a11a94cce5a19e46221a18c9634bdb5e29580915b320bf22ec3b3d1565a40834",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -250,7 +250,7 @@
       "warnings": []
     },
     "022523": {
-      "sha256": "cf94e9a3c705bceb02d4ebdb151e801fbed4067012b684ca57ee69a0e8b3994a",
+      "sha256": "d8cc9dfc8586ee0749a4ce1de4e082fb802f8f00349cf879ead9cea5c0998ddf",
       "reference": {
         "status": "limited",
         "daily_limit": null,
@@ -268,27 +268,8 @@
       },
       "warnings": []
     },
-    "019172": {
-      "sha256": "eff7c34b7a57a92648d29b78f1d60a9273318e7eef4b4067df5e5f913ec26bf1",
-      "reference": {
-        "status": "limited",
-        "daily_limit": 10.0,
-        "unlimited": false,
-        "source_displayed_limit": 10.0,
-        "raw_status": "限大额",
-        "raw_limit": "10.00元"
-      },
-      "fees": {
-        "management": 0.5,
-        "custody": 0.1,
-        "sales": 0.0,
-        "total": 0.6,
-        "subscription_standard": 1.2
-      },
-      "warnings": []
-    },
     "019173": {
-      "sha256": "b6c8f4b8ed5af495f5b6c4edd63b06165b1f33a905bb773dcd89052776f7cba6",
+      "sha256": "0944f3061ac132e7f96af056f0843472f172ad25505d43de5815f1f66b25fb7a",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -303,6 +284,25 @@
         "sales": 0.3,
         "total": 0.9,
         "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
+    "019172": {
+      "sha256": "2604b9b38a3b34f47933269cadd5dfcf88d8317bf87fd7f73009010a65696c92",
+      "reference": {
+        "status": "limited",
+        "daily_limit": 10.0,
+        "unlimited": false,
+        "source_displayed_limit": 10.0,
+        "raw_status": "限大额",
+        "raw_limit": "10.00元"
+      },
+      "fees": {
+        "management": 0.5,
+        "custody": 0.1,
+        "sales": 0.0,
+        "total": 0.6,
+        "subscription_standard": 1.2
       },
       "warnings": []
     },
@@ -402,7 +402,7 @@
       "warnings": []
     },
     "019441": {
-      "sha256": "f6a1df3e0d4267f4158edea2d903e6e7f7dba3b3657368c30f66780c00e11ae6",
+      "sha256": "dad77d6f5a1f3b01242db71566194a4c0c6b1dadc3930907d2c70b630df80446",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -421,7 +421,7 @@
       "warnings": []
     },
     "019442": {
-      "sha256": "6553b128b52f97dddc7b44a446f6134f06451205a4045be8090058ee16dd4ebc",
+      "sha256": "8a97f87ff581f639bad5e1a615452edbb317ac2971c8cdbcaee87cb0bf8f954c",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -440,7 +440,7 @@
       "warnings": []
     },
     "019524": {
-      "sha256": "a4157e5d6613d30ae2330932ff434495dba5e9c05c9d40f1710e4957141f16f5",
+      "sha256": "b3911df9113c200fab1ee0dec9ceefd90ece86c362f324724389e1e55208b9f2",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -459,7 +459,7 @@
       "warnings": []
     },
     "019525": {
-      "sha256": "33781c2a9d31032d15ec129660ca36cd8dab62f097765d5b499663b3e1f19302",
+      "sha256": "17a181f515bbdda4772e20c4cb16a0b666597cf180012de99e009e2898d711ef",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -478,7 +478,7 @@
       "warnings": []
     },
     "022664": {
-      "sha256": "6b4196fb6e10090b33e782c387bf29f67feb1deaea27f20c05ac3467c4d63970",
+      "sha256": "ce96a88225175d6545c28e64c39514fbd170a8b3f9aa7f1135955fa498d6b341",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -534,25 +534,6 @@
       },
       "warnings": []
     },
-    "012752": {
-      "sha256": "8f92c63f9cc8a0dc78582397b0d44425b9498d7965b72866514f000964717083",
-      "reference": {
-        "status": "limited",
-        "daily_limit": 10.0,
-        "unlimited": false,
-        "source_displayed_limit": 10.0,
-        "raw_status": "限大额",
-        "raw_limit": "10.00元"
-      },
-      "fees": {
-        "management": 0.8,
-        "custody": 0.2,
-        "sales": 0.3,
-        "total": 1.3,
-        "subscription_standard": 0.0
-      },
-      "warnings": []
-    },
     "539001": {
       "sha256": "5d0c9546d49e451cfb0c7b1e2838850aef892191d20077fc5708462fcbb1a6f4",
       "reference": {
@@ -572,22 +553,22 @@
       },
       "warnings": []
     },
-    "018043": {
-      "sha256": "b42fb34d702434ec23b3176dc3d4875a056843d6dab5da80755f519e06cbce65",
+    "012752": {
+      "sha256": "8f92c63f9cc8a0dc78582397b0d44425b9498d7965b72866514f000964717083",
       "reference": {
-        "status": "paused",
-        "daily_limit": 0,
+        "status": "limited",
+        "daily_limit": 10.0,
         "unlimited": false,
-        "source_displayed_limit": 100.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "100.00元"
+        "source_displayed_limit": 10.0,
+        "raw_status": "限大额",
+        "raw_limit": "10.00元"
       },
       "fees": {
-        "management": 0.5,
-        "custody": 0.1,
-        "sales": 0.0,
-        "total": 0.6,
-        "subscription_standard": 1.0
+        "management": 0.8,
+        "custody": 0.2,
+        "sales": 0.3,
+        "total": 1.3,
+        "subscription_standard": 0.0
       },
       "warnings": []
     },
@@ -610,8 +591,27 @@
       },
       "warnings": []
     },
+    "018043": {
+      "sha256": "15937f5caed37e791c08659d8c4b37324a046cb1cb6c41337388316e8b934062",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 100.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "100.00元"
+      },
+      "fees": {
+        "management": 0.5,
+        "custody": 0.1,
+        "sales": 0.0,
+        "total": 0.6,
+        "subscription_standard": 1.0
+      },
+      "warnings": []
+    },
     "018044": {
-      "sha256": "9979423a582bd807e04742c4da6c68520a42cc4a3ba22be3a217dd6ee8d8df10",
+      "sha256": "5722ba91c14b1038003eb39fabb99f144c72dbd71286626f768921114a1b384d",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -630,7 +630,7 @@
       "warnings": []
     },
     "022525": {
-      "sha256": "9d82c7d3694aba751268df4c860c0d401f2cb09081974dbe28839ab59fdee84e",
+      "sha256": "191c56d1a9316fd0c0b02c3bf0a6eca17e6bbe3b8ef7af41c4d675cb54c8c319",
       "reference": {
         "status": "limited",
         "daily_limit": null,
@@ -649,7 +649,7 @@
       "warnings": []
     },
     "270042": {
-      "sha256": "51823f0de4c486af05a377105895e3a935f71d1b5b42c18143ba44520329e44f",
+      "sha256": "b5ae3a35964fc2bed2217afb0543421238ee4ce4beee0a39470ffb20da5d48d1",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -668,7 +668,7 @@
       "warnings": []
     },
     "006479": {
-      "sha256": "f525f6038399115f14c9802537fbea437fb7ccb43ad57849acf4df4508f7abe1",
+      "sha256": "c01816abc1282bf07741e4eaadce8983377475be46341fbb2d0ec126c5692034",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -687,7 +687,7 @@
       "warnings": []
     },
     "015299": {
-      "sha256": "78d82d4eeaff1b641008c577c5b9bce65f0a0f12abe2d469a81e8fa224f031b2",
+      "sha256": "76c7117bd929ce6d192571b118b9a88badd47c9717531ec6dfcff0d07fe81d1f",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -706,7 +706,7 @@
       "warnings": []
     },
     "015300": {
-      "sha256": "76706e064449091ff5c34e251bca5f18bc5b31946ae578ddcfb135344c1356e4",
+      "sha256": "e22b94583151f39e7c7333fb2d50e3870fc2865c84af9444548292862c72d0da",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -724,27 +724,8 @@
       },
       "warnings": []
     },
-    "012870": {
-      "sha256": "57a1095ba1baa634467a32fd5648f51d1cbe6b643deebdfb12a71bbcd7a0e0af",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": 10.0,
-        "raw_status": "暂停申购",
-        "raw_limit": "10.00元"
-      },
-      "fees": {
-        "management": 0.5,
-        "custody": 0.1,
-        "sales": 0.3,
-        "total": 0.9,
-        "subscription_standard": 0.0
-      },
-      "warnings": []
-    },
     "161130": {
-      "sha256": "8bffbd4f91ae12b1379827742575ba76832f54854d7b38cf6eb71e73ae766c70",
+      "sha256": "c109febdf539376bb144eeff3500bcb76d3adb3c92c84713d05b4b2619f84d2a",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -762,8 +743,27 @@
       },
       "warnings": []
     },
+    "012870": {
+      "sha256": "40f783405ae1bcca06e658b353a081f4a354e7efc0a70864981fb96ce7841bb8",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": 10.0,
+        "raw_status": "暂停申购",
+        "raw_limit": "10.00元"
+      },
+      "fees": {
+        "management": 0.5,
+        "custody": 0.1,
+        "sales": 0.3,
+        "total": 0.9,
+        "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
     "016532": {
-      "sha256": "2bda26db477c16c6e8fc512da9cb446a6a19da733f3b954c6e080ef2ee831f26",
+      "sha256": "3781f05a0d04e5aad1cc59b0601ee894ecf8b487dd0c9fcccb5d9a08113bd940",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -782,7 +782,7 @@
       "warnings": []
     },
     "016533": {
-      "sha256": "8e7002628cb42b819b14e2ec30d3cae9a7219252770bf7a5c1499ca7efd160f7",
+      "sha256": "3bf0eb5a4a540f805f4fb5ba06a20253ead907601d7271829679764f35f53e22",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -801,7 +801,7 @@
       "warnings": []
     },
     "021838": {
-      "sha256": "55a4bde19ef80d9d0f5d12d39c902c5f4405f1a82659299336e4069e36f0a7e7",
+      "sha256": "2521994071ade2484eb5f208ce6d729c64ac4a9c3b62f34bc6d2ac7f1f7a4092",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
