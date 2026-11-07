@@ -1,17 +1,23 @@
 {
   "mode": "collected",
   "status": "partial",
-  "last_attempt_at": "2026-11-07T14:00:33+08:00",
+  "last_attempt_at": "2026-11-07T21:05:13+08:00",
   "last_success_at": null,
   "source": "eastmoney",
-  "succeeded": 52,
+  "succeeded": 47,
   "partial": 1,
-  "failed": 0,
+  "failed": 5,
   "total": 53,
-  "reference_updated": 53,
+  "reference_updated": 48,
   "alipay_status": "not_connected",
   "alipay_records_accepted": 0,
-  "message": "公开来源：完整成功 52/53，部分成功 1，失败 0。支付宝记录单独核验；未知不会自动变成可买。",
+  "message": "公开来源：完整成功 47/53，部分成功 1，失败 5。支付宝记录单独核验；未知不会自动变成可买。",
   "warnings": [],
-  "errors": {}
+  "errors": {
+    "018065": "ConnectionError: source unavailable or parser rejected page; prior timestamps retained.",
+    "007721": "ConnectionError: source unavailable or parser rejected page; prior timestamps retained.",
+    "019737": "ConnectionError: source unavailable or parser rejected page; prior timestamps retained.",
+    "018044": "ConnectionError: source unavailable or parser rejected page; prior timestamps retained.",
+    "015299": "ConnectionError: source unavailable or parser rejected page; prior timestamps retained."
+  }
 }
