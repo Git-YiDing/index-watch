@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-13T14:48:30+08:00",
+  "checked_at": "2026-11-14T14:27:02+08:00",
   "source": "https://fundf10.eastmoney.com",
   "facts": {
     "019305": {
-      "sha256": "a455c2013733b9d79cf3387489327be79ad522777f43b26a7a83be66afa404f2",
+      "sha256": "6156ac974bd3c6cc85d1974ab27411bb80581f73347f43b60fb4c1ac1bad9e84",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -22,7 +22,7 @@
       "warnings": []
     },
     "017641": {
-      "sha256": "7180d2917389ccd43e2859a88eefe5edb03e01da9cca3ed3c493cdd2efead203",
+      "sha256": "3b3da6d9905cb287f2feefb026c640c759168ac13cd50a858310a41a066abcd0",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -41,7 +41,7 @@
       "warnings": []
     },
     "050025": {
-      "sha256": "1d64e94ecc3edf32188f1521d96704354210640fa0ab1888c7200d6f8b27e3b0",
+      "sha256": "0e347711e4f7f3f77bc05c6f0537ec6ea3522040a60f9823eb67c53841d1cebc",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -60,7 +60,7 @@
       "warnings": []
     },
     "006075": {
-      "sha256": "8d1e149becd3d518002df3936ef131a1c4a5f4a49a8eebb9dbdc9b7ad9c90e6c",
+      "sha256": "c735e5e4dfe4eb0694cf95a705207bc40713e23a0206ad820f1da2e0018741cc",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -78,27 +78,8 @@
       },
       "warnings": []
     },
-    "018738": {
-      "sha256": "00d098908c5ae6b89bf5361c2d7d23eb0cf1ef4f4e57a4cce3e71dac5709c87c",
-      "reference": {
-        "status": "paused",
-        "daily_limit": 0,
-        "unlimited": false,
-        "source_displayed_limit": null,
-        "raw_status": "暂停申购",
-        "raw_limit": null
-      },
-      "fees": {
-        "management": 0.6,
-        "custody": 0.2,
-        "sales": 0.01,
-        "total": 0.81,
-        "subscription_standard": 0.0
-      },
-      "warnings": []
-    },
     "017028": {
-      "sha256": "155aba39ceaeb0f5a2dbda2d7b4758d49961eff31836d772b162e268f933f2b4",
+      "sha256": "82873845d272122cac2c6b1889e262d53fd3f9617cfdee8f77e87644a32887e5",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -116,8 +97,27 @@
       },
       "warnings": []
     },
+    "018738": {
+      "sha256": "7c393b242808517392c44b76ac7aae2f71f6be1b9e65f3b1f21617dc125fd33b",
+      "reference": {
+        "status": "paused",
+        "daily_limit": 0,
+        "unlimited": false,
+        "source_displayed_limit": null,
+        "raw_status": "暂停申购",
+        "raw_limit": null
+      },
+      "fees": {
+        "management": 0.6,
+        "custody": 0.2,
+        "sales": 0.01,
+        "total": 0.81,
+        "subscription_standard": 0.0
+      },
+      "warnings": []
+    },
     "017030": {
-      "sha256": "9d43348ed8478c9474968afc51170313fc2e0cc637ef29ac918eb8c1e800d47f",
+      "sha256": "173e22fe9d2a1bf0f9bd1059c0ef38b54172e2c17269312b8317f895f873cefb",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -136,7 +136,7 @@
       "warnings": []
     },
     "018064": {
-      "sha256": "42767fa0bae3e488f0e4de098b37d3b878a64a15c82df64f1b43df8850e661ce",
+      "sha256": "326178ed29c12537d6602a48c39e2e69a0db4c9409ba1e8ae0a642600e07ef1e",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -155,7 +155,7 @@
       "warnings": []
     },
     "018065": {
-      "sha256": "c2b6316b0cc05002a024ecc1ea24dcce38056f852897c2f129972c5a406f6226",
+      "sha256": "c60d3f2d69ad7cab57eb14a2c1169f937d2ee6ac8d7226e997cd4d368bef3927",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -174,7 +174,7 @@
       "warnings": []
     },
     "161125": {
-      "sha256": "7ea56417269319f0e028cdd69f14535d2b00f0c7a0539bf64bb7fd7a021ed66b",
+      "sha256": "f0aaa007ba8b89704d0579819b1ecc8b87c9dba5b5a3ba27cb6de8fcb96a0b57",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -193,7 +193,7 @@
       "warnings": []
     },
     "012860": {
-      "sha256": "0754c663d675fef12552319592c74fac90aa3cf9d07a8d1b808bc3d5c90fd6b7",
+      "sha256": "02d1836a9712ab81c1633028a4465160d5ef4ce8836f014837651468565b917b",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -212,7 +212,7 @@
       "warnings": []
     },
     "007721": {
-      "sha256": "8ec2192026dc1bf850effe8790b5907e8656219cb101030fe33e9bcde4ad73b2",
+      "sha256": "de5223d84a19387bfe0adb34c3ec8a0ba68b90edb314f941b367e1e3f23c79dc",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -231,7 +231,7 @@
       "warnings": []
     },
     "007722": {
-      "sha256": "cc9fe8edf2ee65d3238048896dc5f0fd29bed1044240e0e8ebf4222c0e66b94e",
+      "sha256": "505e56d6548a5179bd4a50003e1cd84c747ab3c6bbd9ecab52ef34f6247da389",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -250,7 +250,7 @@
       "warnings": []
     },
     "022523": {
-      "sha256": "4f5b22090fc9c60f101de795579fa8813e1744ee1af5344633453d44b7ccdbad",
+      "sha256": "c9c05ce3001e271cd9ea4d36ff310dd4f87510206fc9cd41357985ad2c9c2858",
       "reference": {
         "status": "limited",
         "daily_limit": null,
@@ -269,7 +269,7 @@
       "warnings": []
     },
     "019172": {
-      "sha256": "50d7b053a6113871e1e6c399ce917ffa41467d526ebdb12842372be970c1af23",
+      "sha256": "dd18334d3c2a6fd45901591b630c01268ea7f27c49c84b5022d2baa1be440cce",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -288,7 +288,7 @@
       "warnings": []
     },
     "019173": {
-      "sha256": "8c9af5f6ba535b2a2c7928b36cee0f3bfd240cfff24431fd5f021d11347b7326",
+      "sha256": "ac7a73022bd97a254aad73fac705970f0217b6e5c7f86635cfafa45b9cafd310",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -307,7 +307,7 @@
       "warnings": []
     },
     "016452": {
-      "sha256": "5b6ef24f60ee055511a5940657805c4fb6e564075b6c67b679a8a01bc1f10d72",
+      "sha256": "1747c7fe49d0ed4f31d5f9ab078132a95124eec3d4770568e5e624f4eacb817a",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -326,7 +326,7 @@
       "warnings": []
     },
     "016453": {
-      "sha256": "4ef367fbf61544e4eee3ec03787a5a2682bc63186e94366fe8495868900203f0",
+      "sha256": "cc4bf4efda66b8da9faa01543f5bfffe7b0284d0357b2e6b949e4446ece49c81",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -345,7 +345,7 @@
       "warnings": []
     },
     "021000": {
-      "sha256": "98d6ed4c010274b342f9901c7242d7abe1d0c0f32d3c1e099828c28f2663b915",
+      "sha256": "57d2f1de529747c8033dc2283d3235b1a7800875b522cdd10fa491532865dd49",
       "reference": {
         "status": "limited",
         "daily_limit": null,
@@ -364,7 +364,7 @@
       "warnings": []
     },
     "019736": {
-      "sha256": "32adc2339c00977babd25272f911d8f43e1156e3df1e8d8354c5ef2152786bb4",
+      "sha256": "bace7a65207b9fe12f8a6634d2f096a17d05738abba4d68556c7e552f1a8f540",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -383,7 +383,7 @@
       "warnings": []
     },
     "019737": {
-      "sha256": "80a73719a0703e806874c866da9b11c12e6d988d49d22c1c8b7de783772f5b7d",
+      "sha256": "f5a2b3859d6c95d2be27851bb518aa64c61e68b0589c57028ffe04ba3a3ea868",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -402,7 +402,7 @@
       "warnings": []
     },
     "019441": {
-      "sha256": "5b892e27ab06dfc2962a2c1faf51e842d46ad1e1acf58ac3035775a856aefd95",
+      "sha256": "18d657e2319e9dace6966fca73a53102097c0897d4e38c938a9ba08a04412d7a",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -421,7 +421,7 @@
       "warnings": []
     },
     "019442": {
-      "sha256": "b2110611156cc4e43bb9b73a5592cd2b8255246dfece238b8d120d8bf71a1f25",
+      "sha256": "ca07ad6142885f499b3211d993feb47d3ce5840d094901e8a9f44895e024aee5",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -440,7 +440,7 @@
       "warnings": []
     },
     "019524": {
-      "sha256": "4d69267693bfcab7703bc598964892da98165def539f59120f8222a2427efed7",
+      "sha256": "427020b36a44a348ae51dc9c4defc384c242f29e771a212319e7562f140af8fd",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -459,7 +459,7 @@
       "warnings": []
     },
     "019525": {
-      "sha256": "7d703846ae9607c8b4a412d527eb92d5b48e780c196df80a1b5c8cb1a4ef0794",
+      "sha256": "110d144c464d0b86ada8902ae01bae2e24735e8383a4cf869a8f6a8641765b04",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -478,7 +478,7 @@
       "warnings": []
     },
     "022664": {
-      "sha256": "50d6d0f191d84421675c0fcc9cdb6010c51f7811a22f4ca22114655a1d07c0dd",
+      "sha256": "e3a146c27a94558532ee5e8347fb39ea8299b41d2b7024482b3a6c3be94eb1ec",
       "reference": {
         "status": "limited",
         "daily_limit": 5.0,
@@ -497,7 +497,7 @@
       "warnings": []
     },
     "000834": {
-      "sha256": "74f12b96985cdc837205ab05cd6a76f18a22ff054a2ede67413165f31d5abc6a",
+      "sha256": "bf992c282676bcdfc0c03b07ca1d1c36b80b9b03857dda39322e899fe6a0825b",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -516,7 +516,7 @@
       "warnings": []
     },
     "008971": {
-      "sha256": "ea301f27600a6f54d90e4106f51cf409eaed2be30cb572a10c4e2f4551c5ebab",
+      "sha256": "c8a349a0a068d503fa0bad0693ed60494d9a643f1feb509b481b18b0d2be29fc",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -535,7 +535,7 @@
       "warnings": []
     },
     "539001": {
-      "sha256": "9a023d2b28a38d0b4d223a1f69fb4ca2ae393dacff6a9479b84ddb21e2458f2c",
+      "sha256": "22059430d6421c8e4203fe85f544e075edcd397f5ce01c700e0a51d1f5f823bb",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -554,7 +554,7 @@
       "warnings": []
     },
     "012752": {
-      "sha256": "368eeb35048933ff09e5d0e08b22e7d802da22f5b5c54e172c5b6fd73bde509f",
+      "sha256": "8e74af5036a845f357e6430b05f117242e555257cea15816a08c149c95a7099b",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -573,7 +573,7 @@
       "warnings": []
     },
     "023422": {
-      "sha256": "8f81c7ee6ec4410d721543ba932593e62e6dc0f0c09b102404fbe495f66031dc",
+      "sha256": "fb11785ad504d40b10b6d67afc153f83692d5b29fc5bb2c4ce86f2f42b652971",
       "reference": {
         "status": "limited",
         "daily_limit": 10.0,
@@ -592,7 +592,7 @@
       "warnings": []
     },
     "018043": {
-      "sha256": "d8407dbc6fde7a838e0b6a7269e16d4a43f7c934b50a996680bcc6b9ff4ed705",
+      "sha256": "387bc9f64764f09088096778fd504bf114a5e510534e0e3b37f9b50304d83aa8",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -611,7 +611,7 @@
       "warnings": []
     },
     "018044": {
-      "sha256": "54fda18a1af1bc83bb4153adc27c81554c5793ad60e32e6d10dd064364cc2d59",
+      "sha256": "6e97df66ee622a7a51156c85ea44c806d638ac114ac2336e7faa6ca9fca9b280",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -630,7 +630,7 @@
       "warnings": []
     },
     "022525": {
-      "sha256": "7cc6bbd528dd59442f87442b8aa0e437a8e8611664435bed201dd177ce017122",
+      "sha256": "3961a430ab4c0ba6d90e6500905b71ac964a4f654bf1f7aa7f0b5af22b25d39a",
       "reference": {
         "status": "limited",
         "daily_limit": null,
@@ -649,7 +649,7 @@
       "warnings": []
     },
     "270042": {
-      "sha256": "722b81bbc003325aec00dfc9e1a487f97dd649ef0c29bc6ab6c13493478b1f73",
+      "sha256": "c8fc3da9d53bf33843a7cf6d0f0dea2d64ab77c2e0183b3bb66613fe75fe719f",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -668,7 +668,7 @@
       "warnings": []
     },
     "006479": {
-      "sha256": "f79da80acc13ce874d2c196f1fda3718798ffea66939a2911b1cd6f600c512c3",
+      "sha256": "9dada18f8b38438c4be1d967da607a012684c58dfde5e04d2e7008517a15b43d",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -687,7 +687,7 @@
       "warnings": []
     },
     "015299": {
-      "sha256": "cc618bb50f90f8edc467b1db0a39c9b685a75fc053cf2ebdcee1e80514c1b2d9",
+      "sha256": "496527b7eb95111776b65273ca28a65845c1f6066b2ab3d606ce9ba1c7b0a83c",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -706,7 +706,7 @@
       "warnings": []
     },
     "015300": {
-      "sha256": "4f555ed575961513ce9c17730ee4bb491a002edd1945e2829b398ff987b5a385",
+      "sha256": "2890daaa48588814d9440716e4cc25b6d60c6f2957cde0ee6fd99ae5a3e83aef",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -725,7 +725,7 @@
       "warnings": []
     },
     "161130": {
-      "sha256": "d7d28d8c33e467d045c8c0d84738c8dc3f92e759b4309c1f89b7d62e7905dd4f",
+      "sha256": "769a39fedb9155fc6acf594c5e03abda9620f699b89cdea5e996c80972ba3879",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -744,7 +744,7 @@
       "warnings": []
     },
     "012870": {
-      "sha256": "84aaf773c451e6c17b55c470275db47b4d4f9b731ebf7c8639a529ed800095a0",
+      "sha256": "356f0a4cc6445bd95c76e2feef0ff6bccd327ddd29a941d919bcbc6b1b1ca1a8",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -763,7 +763,7 @@
       "warnings": []
     },
     "016532": {
-      "sha256": "38a10c6546cd4bfbdd38b612aecf472f7e540844ec706d13d2a53a6800c83025",
+      "sha256": "36bf3cecf66a89bd439c241f96026cc6b89bcf1cbea2711abee753ea9e8cc1d4",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -782,7 +782,7 @@
       "warnings": []
     },
     "016533": {
-      "sha256": "68e249ec7d4da2c41211fae0780ffbd52992b77490673a62f2f77105d3ff77ca",
+      "sha256": "5507c22b9830645632e22255132e531f4ef16fd86bc95691776e053000dda3b9",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -801,7 +801,7 @@
       "warnings": []
     },
     "021838": {
-      "sha256": "d23592bf49429a413b957492fb7ce713600b8da076c591b74a209c465032b089",
+      "sha256": "261c14e37153110d706d03a55992688f78518f653c5e7bed99352571ac91c5f8",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -820,7 +820,7 @@
       "warnings": []
     },
     "016055": {
-      "sha256": "2957fc0ddaf6499d37abe3615f0fd775209ae4b6dd6070b0aaa4fa808a4f5412",
+      "sha256": "0aecd4ef316d339029e20ad15449f0c0c868c82cb9e61ee18490df9430cbe6e9",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -839,7 +839,7 @@
       "warnings": []
     },
     "016057": {
-      "sha256": "9a691477af8129212f625096b6d95a9c6410308ac14384506d8cc0b2e21ca41b",
+      "sha256": "dd8d5be8dcf4b1f72bb19298a9b920393e39afc650e2c4374c52fb2f5a316e32",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -858,7 +858,7 @@
       "warnings": []
     },
     "019547": {
-      "sha256": "9ba11ce66bf585de361b8d102db3373df787e8c2e3a1700d2ad39cf98174bb8d",
+      "sha256": "105985460ef8d9aa21128e2ee5a43f371d04f569a283f2374e709d7ed4890efa",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -877,7 +877,7 @@
       "warnings": []
     },
     "019548": {
-      "sha256": "4716d4ae7638fffbb660e01015e52759f4a183b3fa80996c09bd8ff8aca6d51f",
+      "sha256": "3f274d351af047056b619d8013938de2df410ea56a30e3f17dc052d423084b9c",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -896,7 +896,7 @@
       "warnings": []
     },
     "018966": {
-      "sha256": "65aa58c7f21e31ab8b067beac40528961acc5114c874e02add903f5c7042dd65",
+      "sha256": "652a51c2105d71b8cdb99df4aa72556efa7fdd2d58a45d3f766900ee08af517a",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -915,7 +915,7 @@
       "warnings": []
     },
     "018967": {
-      "sha256": "7e7ced54064803046430d0bcbcfa33f7b5cb91dabfd4ef9947f0e0e94c98bae4",
+      "sha256": "5e99c1b168ce61f31fc4f492a2f787120170bea11da3053b595882885670983a",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -934,7 +934,7 @@
       "warnings": []
     },
     "021773": {
-      "sha256": "4d1fffb0034a2fe2ee84b24e5a9ec27ab98ca5c4b8c4cb04b5808c227a643279",
+      "sha256": "30cae117043d2122cc5d71cc7b723e05e5b94dc44195f50acb0f43107972213c",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -953,7 +953,7 @@
       "warnings": []
     },
     "040046": {
-      "sha256": "7ce490f602ccf5d3af0a07b05ae48e3ef2f3c7c0d2ccbe32ecf0cb8c9756812c",
+      "sha256": "787b3b36a3e8776388616ee381cc03c276ddd9ed0abb7d987bc698d08569dcbe",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -972,7 +972,7 @@
       "warnings": []
     },
     "014978": {
-      "sha256": "efd9e7012b923b9cc1d49228337d9e1072596840612d7fd5cf1499d37a670081",
+      "sha256": "cf3e64229bc8186d13227d4b327ab87da60437a2a6bcf3a7cb00e9eb2e84d287",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
@@ -991,7 +991,7 @@
       "warnings": []
     },
     "160213": {
-      "sha256": "64debee4c689e8515daa51e777871c4648fc03599c19f0820822a510ce29bd46",
+      "sha256": "82931571f4805d3cd2da36955b96f95a51103b962c213f287ea8eed3b2c5e8d5",
       "reference": {
         "status": "paused",
         "daily_limit": 0,
