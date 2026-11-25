@@ -1,5 +1,317 @@
 [
   {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "run",
+    "title": "公开数据检查存在缺失",
+    "description": "公开来源：完整成功 52/53，部分成功 1，失败 0。支付宝记录单独核验；未知不会自动变成可买。"
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "017641",
+    "title": "017641 摩根标普500指数 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019305",
+    "title": "019305 摩根标普500指数 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019172",
+    "title": "019172 摩根纳斯达克100指数 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019173",
+    "title": "019173 摩根纳斯达克100指数 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "016452",
+    "title": "016452 南方纳斯达克100指数发起 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "016453",
+    "title": "016453 南方纳斯达克100指数发起 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019736",
+    "title": "019736 宝盈纳斯达克100指数发起 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019737",
+    "title": "019737 宝盈纳斯达克100指数发起 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019441",
+    "title": "019441 万家纳斯达克100指数发起式 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 5.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019442",
+    "title": "019442 万家纳斯达克100指数发起式 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 5.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019524",
+    "title": "019524 华泰柏瑞纳斯达克100ETF发起式联接 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 5.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "019525",
+    "title": "019525 华泰柏瑞纳斯达克100ETF发起式联接 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 5.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "022664",
+    "title": "022664 华泰柏瑞纳斯达克100ETF发起式联接 I · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 5.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "000834",
+    "title": "000834 大成纳斯达克100ETF联接 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "008971",
+    "title": "008971 大成纳斯达克100ETF联接 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "539001",
+    "title": "539001 建信纳斯达克100指数 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "012752",
+    "title": "012752 建信纳斯达克100指数 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
+    "date": "2026-11-25T16:37:47+08:00",
+    "type": "reference",
+    "code": "023422",
+    "title": "023422 建信纳斯达克100指数 D · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "limited",
+        "after": "paused"
+      },
+      "daily_limit": {
+        "before": 10.0,
+        "after": 0
+      }
+    }
+  },
+  {
     "date": "2026-11-24T17:57:47+08:00",
     "type": "run",
     "title": "公开数据检查存在缺失",
