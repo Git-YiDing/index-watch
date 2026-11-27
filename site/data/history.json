@@ -1,5 +1,88 @@
 [
   {
+    "date": "2026-11-27T16:37:25+08:00",
+    "type": "run",
+    "title": "公开数据检查存在缺失",
+    "description": "公开来源：完整成功 52/53，部分成功 1，失败 0。支付宝记录单独核验；未知不会自动变成可买。"
+  },
+  {
+    "date": "2026-11-27T16:37:25+08:00",
+    "type": "reference",
+    "code": "022523",
+    "title": "022523 天弘标普500发起 D · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "paused",
+        "after": "limited"
+      },
+      "daily_limit": {
+        "before": 0,
+        "after": null
+      }
+    }
+  },
+  {
+    "date": "2026-11-27T16:37:25+08:00",
+    "type": "reference",
+    "code": "021000",
+    "title": "021000 南方纳斯达克100指数发起 I · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "paused",
+        "after": "limited"
+      },
+      "daily_limit": {
+        "before": 0,
+        "after": null
+      }
+    }
+  },
+  {
+    "date": "2026-11-27T16:37:25+08:00",
+    "type": "reference",
+    "code": "000834",
+    "title": "000834 大成纳斯达克100ETF联接 A · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "daily_limit": {
+        "before": 10.0,
+        "after": 5.0
+      }
+    }
+  },
+  {
+    "date": "2026-11-27T16:37:25+08:00",
+    "type": "reference",
+    "code": "008971",
+    "title": "008971 大成纳斯达克100ETF联接 C · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "daily_limit": {
+        "before": 10.0,
+        "after": 5.0
+      }
+    }
+  },
+  {
+    "date": "2026-11-27T16:37:25+08:00",
+    "type": "reference",
+    "code": "022525",
+    "title": "022525 天弘纳斯达克100指数发起 D · 公开参考变化",
+    "description": "仅记录本来源字段变化，不代表支付宝已恢复或调整额度。",
+    "changes": {
+      "status": {
+        "before": "paused",
+        "after": "limited"
+      },
+      "daily_limit": {
+        "before": 0,
+        "after": null
+      }
+    }
+  },
+  {
     "date": "2026-11-26T16:21:20+08:00",
     "type": "run",
     "title": "公开数据检查存在缺失",
